@@ -1,0 +1,50 @@
+{
+  "format": "opensheaf-object/0.2",
+  "specification": "0.2",
+  "kind": "document",
+  "name": "nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq",
+  "owner": "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
+  "documentVersion": 1,
+  "mainSource": "source/EW_g.tex",
+  "sourceFormat": "application/x-tex",
+  "renditions": [
+    {
+      "path": "paper.pdf",
+      "mediaType": "application/pdf"
+    }
+  ],
+  "changes": {
+    "text": "55 pages, 7 figures"
+  },
+  "external": [
+    {
+      "role": "source",
+      "service": "arXiv",
+      "record": "https://arxiv.org/abs/2510.02092v1",
+      "doi": "10.48550/arXiv.2510.02092",
+      "label": "v1",
+      "files": [
+        {
+          "name": "v1.pdf",
+          "sha512": "970b9ec3b68d79b0f3c51df567af0b2ab52410d58343d0ec225b6f73fd54f32e5dbedb56a1f3ba409866bfa357e8d7814485b30b0a942177d4dea6d72777cf9e",
+          "md5": "412bee96da569ce2b417ab07d8d521c6",
+          "bytes": 1250253
+        },
+        {
+          "name": "v1-source.tar.gz",
+          "sha512": "e458d08c763ec3e1c5a4a98222d153305698eaa319f3ff1ee08608fda1ac1d181dd50a5e4ab19921ae24bb2e0776ea73d48f96dceb49cccb961332837f7cf9e9",
+          "md5": "d489539c1f4b2eb94036af52c70663bf",
+          "bytes": 1745790
+        }
+      ]
+    }
+  ],
+  "status": "active",
+  "agreement": {
+    "by": [
+      "Vieri, Mastropietro"
+    ],
+    "date": "2026-11-21",
+    "method": "permission of the authors to deposit it from arXiv: by e-mail on Nov 21 2026"
+  }
+}

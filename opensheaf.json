@@ -29,12 +29,22 @@
       "status": "active"
     },
     {
+      "id": "sheaf:nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq:3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
+      "kind": "document",
+      "name": "nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq",
+      "owner": "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
+      "head": "v1",
+      "inventorySha512": "8abf7f9f914f571dfe7a92e9f0b10b0673a608c3c53ef5df23b15602899301b941698ce892d9835a0d62fb3758e317ee00cf5a3c123804fdf1a61a928a41eefc",
+      "status": "active",
+      "label": "qed-g-2"
+    },
+    {
       "id": "sheaf:pz3li2jjanfywqym7pptflc4pi5v56qzapqxuzap5ftgth4zhdja:3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
       "kind": "collection",
       "name": "pz3li2jjanfywqym7pptflc4pi5v56qzapqxuzap5ftgth4zhdja",
       "owner": "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
-      "head": "v1",
-      "inventorySha512": "cac798a6096a6e261c8ab2894b3df63ffe13e8179b7f395d1d4d38fbb8e6c7563dc60e7389616a371dd63e0ea2123713244efa92bf0a51c241876cff02f8cf43",
+      "head": "v2",
+      "inventorySha512": "51cbaaefa85b7e9a7c3d42c0afc31df516f9fdaa3fb8923550d5655a3382138384156562cd1bf309afcd1a7682a3519405bcc40f5f68a8f2e93240e683e5de3f",
       "status": "active",
       "label": "main"
     }
