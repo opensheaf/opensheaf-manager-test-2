@@ -1,0 +1,26 @@
+{
+  "owner": "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
+  "name": "OpenSheaf manager test 2 (throwaway)",
+  "contact": "https://opensheaf.org/opensheaf-manager-test-2/",
+  "baseUrl": "https://opensheaf.org/opensheaf-manager-test-2/",
+  "profiles": [
+    "website"
+  ],
+  "storageLayout": "opensheaf-owner-name-storage-layout",
+  "mainCollection": "main",
+  "curator": {
+    "name": "Test, Manager",
+    "givenName": "Manager",
+    "familyName": "Test",
+    "affiliation": ""
+  },
+  "depositor": {
+    "name": "Manager Test",
+    "address": "https://opensheaf.org/opensheaf-manager-test-2/"
+  },
+  "index": {
+    "html": {
+      "templates": "templates"
+    }
+  }
+}
