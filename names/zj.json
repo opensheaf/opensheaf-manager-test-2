@@ -1,0 +1,15 @@
+{
+  "format": "opensheaf-index/0.2",
+  "index": "names",
+  "entries": [
+    {
+      "name": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
+      "owner": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
+      "id": "sheaf:zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq:zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
+      "status": "active",
+      "originator": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
+      "genesis": "{\n  \"format\": \"opensheaf-genesis/0.2\",\n  \"kind\": \"owner\",\n  \"created\": \"2026-11-21T23:28:07Z\",\n  \"nonce\": \"103beec08efa59be744caef7354c9ebc\",\n  \"keys\": [\n    \"did:key:z6MkqZhgU2bDwJehXytzFpiCKHArsHZwHSgDSUVTvfzpAKum\"\n  ],\n  \"threshold\": 1,\n  \"next\": [\n    \"r5am72okpkkt6ynz5lut5hyxcccc5cq76ktcxmc4ue6sk3hffrpa\",\n    \"iqg6jhtlmgcduff4bqnxm7zsad2nkp2o5c37zfei2moojxkb7nya\",\n    \"gz6m3wdmckaldkn76sooe76nrnnp46cx4xkkrfvka5iughr36bya\"\n  ],\n  \"nextThreshold\": 2\n}\n",
+      "label": "member-b"
+    }
+  ]
+}
