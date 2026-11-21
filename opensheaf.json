@@ -44,8 +44,8 @@
       "kind": "document",
       "name": "nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq",
       "owner": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
-      "head": "v2",
-      "inventorySha512": "c2f51b91944c2a886456739ea350e16fe21422e38b3aba6f8027325a31ef3a165ecd8b59c847ec641024c2fdbe8070a5d21753dac75635296da53f5b47aa2bbd",
+      "head": "v3",
+      "inventorySha512": "7cdf28a8600d6124b25777e34e46e2c6217056f80d3a78e10e2c8ccccc4b490fe1d822a9a935aeb6b63fc7fc6f78cf018ca017809cb79e5cfe12f64f308be355",
       "status": "active",
       "label": "qed-g-2-member-b"
     },
@@ -54,8 +54,8 @@
       "kind": "collection",
       "name": "pz3li2jjanfywqym7pptflc4pi5v56qzapqxuzap5ftgth4zhdja",
       "owner": "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
-      "head": "v3",
-      "inventorySha512": "aebf2c02d02491a75829273b63339af77f5a90c2fdd3cb67fc490b7a171e4dfd14b3609980646719001e5c3093386ebc4dd6b6d1204390c3e6ac0a5a34b2ccc0",
+      "head": "v4",
+      "inventorySha512": "71af098374413910322859409ad4f44a64b060d2b7502edb2b869f2d55bbd320268ebc80dbcd0a3abce407b4ff18df2e110907d1d28fb778ff096d0464e2e6ee",
       "status": "active",
       "label": "main"
     },

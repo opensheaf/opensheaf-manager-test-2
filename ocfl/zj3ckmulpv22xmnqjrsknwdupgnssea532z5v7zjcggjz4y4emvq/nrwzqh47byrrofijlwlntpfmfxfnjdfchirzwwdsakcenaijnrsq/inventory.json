@@ -520,6 +520,15 @@
       ],
       "b4ade890c9337d81c9c50f3cf0446fc8": [
         "v2/content/paper.tex"
+      ],
+      "31f460d7e79498495782e41a4194ac84": [
+        "v3/content/datacite.json"
+      ],
+      "cffcada1a305070ad56ba6e93b4ba945": [
+        "v3/content/object.json"
+      ],
+      "9ab90d6779c60241ea6f90cbd349bc9d": [
+        "v3/content/paper.pdf"
       ]
     },
     "sha256": {
@@ -1041,10 +1050,19 @@
       ],
       "74280e24bda34a1c7196c4af59f586d886c7971883e2fbc07bf366e45c4c4722": [
         "v2/content/paper.tex"
+      ],
+      "7a9cd367bf533659e6a9938c96c56b31b447f55a47e809819b9ee48c57e4ae6c": [
+        "v3/content/datacite.json"
+      ],
+      "fdbe5a8be873661c0735cfebbe1506b5e20f7e014ce243295953056d89260b83": [
+        "v3/content/object.json"
+      ],
+      "960e375bc9aafdb4c49c84a9b0993cfea364eccefb027d0aea0e4bd7864c7622": [
+        "v3/content/paper.pdf"
       ]
     }
   },
-  "head": "v2",
+  "head": "v3",
   "id": "sheaf:nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq:zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
   "manifest": {
     "f0113dc0704ed52b9ca9dceb714ebc41bcf434164e73fbeb708ca12b802b8c965af0d2f53549e178ed71bc138c2694b6344bfe92974ccfee5eb99df29dfe6d31": [
@@ -1565,6 +1583,15 @@
     ],
     "122903102daec50a543e86351ba6afb1de2e61cb802817dfb64c2bf46468afc4da1f60d6383b75fc21b62e6cb24066f9730634d6a04e5baa151e15c283ab6a07": [
       "v2/content/paper.tex"
+    ],
+    "96268b73990d5a8529a6e107a7aef7ccca797213d3f52491510d0dfc88fde5866a7609bf1cc7188b7d5aa6962cec6126555e21bd54685aa90541c5a3fb0c6a02": [
+      "v3/content/datacite.json"
+    ],
+    "cda6ec3e86d82c10b34d6982119223a3e78a5d9c6321f41a4da4a681dad99b6f481cdf541c8f2ebc666452cc9843cce742f807768a5cdd8732822dc9da5da55c": [
+      "v3/content/object.json"
+    ],
+    "5ca494f14a20a93b718f5fc615bcb600c19d6ac1683c22f75da07545a9b0df7702739303e0dcc9e89204a592d115ce59486c38c3aa2d4b2d2e807949df1f1a04": [
+      "v3/content/paper.pdf"
     ]
   },
   "type": "https://ocfl.io/1.1/spec/#inventory",
@@ -2120,6 +2147,40 @@
           "object.json"
         ],
         "d8d9b818b109b26ccb0fafd3b6d7422e0e16c46c44c44363eb3785d859a4b50de9a5c570d1555242dd71eb5dd4f29b60b62201afdea9f7476f3b20b4959fe7fc": [
+          "paper.pdf"
+        ],
+        "122903102daec50a543e86351ba6afb1de2e61cb802817dfb64c2bf46468afc4da1f60d6383b75fc21b62e6cb24066f9730634d6a04e5baa151e15c283ab6a07": [
+          "paper.tex"
+        ],
+        "8abf7f9f914f571dfe7a92e9f0b10b0673a608c3c53ef5df23b15602899301b941698ce892d9835a0d62fb3758e317ee00cf5a3c123804fdf1a61a928a41eefc": [
+          "parent/inventory.json"
+        ],
+        "9d5a0d128e922adb5d8b068490293598399c27b2fb56c49289ff6a90bda82ae579a4dad855c40938a55bc894021f1cf2eddc27625bebe2e097f2726b7a202278": [
+          "parent/object.json"
+        ],
+        "4301b971875b6348b24c64d1b8a28e602dab7e80b5b53bd6bb8f4a4bebf0573e55cba537253233d1188adfe30d017b31e7dbb2cd478d5606daef1aecc0f8140d": [
+          "parent/signatures/signature-efcqswfcm2obiznb.json"
+        ]
+      },
+      "message": "Deposit from the OpenSheaf manager",
+      "user": {
+        "name": "Manager Test",
+        "address": "https://opensheaf.org/opensheaf-manager-test-2/"
+      }
+    },
+    "v3": {
+      "created": "2026-11-21T23:30:24Z",
+      "state": {
+        "96268b73990d5a8529a6e107a7aef7ccca797213d3f52491510d0dfc88fde5866a7609bf1cc7188b7d5aa6962cec6126555e21bd54685aa90541c5a3fb0c6a02": [
+          "datacite.json"
+        ],
+        "677707d2ee1e5f6a7699c3c8436802a93f0ef5309f76ecc111b6448ecfbf1d0b952a702a3f5c442ae65c6535d82f1242d3049cfdf14522e2ce8650a6be8780cd": [
+          "genesis.json"
+        ],
+        "cda6ec3e86d82c10b34d6982119223a3e78a5d9c6321f41a4da4a681dad99b6f481cdf541c8f2ebc666452cc9843cce742f807768a5cdd8732822dc9da5da55c": [
+          "object.json"
+        ],
+        "5ca494f14a20a93b718f5fc615bcb600c19d6ac1683c22f75da07545a9b0df7702739303e0dcc9e89204a592d115ce59486c38c3aa2d4b2d2e807949df1f1a04": [
           "paper.pdf"
         ],
         "122903102daec50a543e86351ba6afb1de2e61cb802817dfb64c2bf46468afc4da1f60d6383b75fc21b62e6cb24066f9730634d6a04e5baa151e15c283ab6a07": [

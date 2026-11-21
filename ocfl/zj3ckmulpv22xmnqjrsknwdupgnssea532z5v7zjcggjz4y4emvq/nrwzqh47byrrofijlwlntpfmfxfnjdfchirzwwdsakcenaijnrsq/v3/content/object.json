@@ -1,0 +1,29 @@
+{
+  "format": "opensheaf-object/0.2",
+  "specification": "0.2",
+  "kind": "document",
+  "name": "nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq",
+  "owner": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
+  "documentVersion": 3,
+  "mainSource": "paper.tex",
+  "sourceFormat": "application/x-tex",
+  "renditions": [
+    {
+      "path": "paper.pdf",
+      "mediaType": "application/pdf"
+    }
+  ],
+  "status": "active",
+  "changes": {
+    "text": "A second correction by member-b."
+  },
+  "parent": {
+    "owner": "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
+    "name": "nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq",
+    "objectVersion": "v1",
+    "documentVersion": 1,
+    "inventorySha512": "8abf7f9f914f571dfe7a92e9f0b10b0673a608c3c53ef5df23b15602899301b941698ce892d9835a0d62fb3758e317ee00cf5a3c123804fdf1a61a928a41eefc",
+    "url": "https://opensheaf.org/opensheaf-manager-test-2/ocfl/3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq/nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq/v1/"
+  },
+  "previous": "c2f51b91944c2a886456739ea350e16fe21422e38b3aba6f8027325a31ef3a165ecd8b59c847ec641024c2fdbe8070a5d21753dac75635296da53f5b47aa2bbd"
+}
