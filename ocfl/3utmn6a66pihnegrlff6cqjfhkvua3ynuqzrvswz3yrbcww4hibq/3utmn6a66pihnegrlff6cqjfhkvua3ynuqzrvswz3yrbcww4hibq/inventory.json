@@ -1,6 +1,6 @@
 {
   "digestAlgorithm": "sha512",
-  "head": "v2",
+  "head": "v3",
   "id": "sheaf:3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq:3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
   "manifest": {
     "8fce8b1bb55c17ef9e26d184d0bd66e38491cdfaaf9e8d1fa07a83b0e8ba453c1122403bde145b04a60d72e0bfb986097ece965f41643456b81b954df896d7a6": [
@@ -17,6 +17,12 @@
     ],
     "c4a3bf777ce7d6048db70c3cb2b88066e377fe05122802abba960fdf77cfc53bf15bebd8fb4e14b18fabd7e8720a4a1332c0623462bca0c2904aa3c635f11e47": [
       "v2/content/object.json"
+    ],
+    "29e8531456ce8f8966538eee3f2c29889130670525bcd8bce9bbcdfc4154119867e1e2eabe6cd4adfe4551414c5491cdd7d716498ee15a54d6890e1a6e79c06b": [
+      "v3/content/keys.json"
+    ],
+    "223f41bffdbfd69256bcf86da567baccc8e71cc8cef46c2b1933828f90eb759ffa5ec9da692606d5e1ef6d235132d177a51324d3348062d9a4988820382b2496": [
+      "v3/content/object.json"
     ]
   },
   "type": "https://ocfl.io/1.1/spec/#inventory",
@@ -45,6 +51,25 @@
           "keys.json"
         ],
         "c4a3bf777ce7d6048db70c3cb2b88066e377fe05122802abba960fdf77cfc53bf15bebd8fb4e14b18fabd7e8720a4a1332c0623462bca0c2904aa3c635f11e47": [
+          "object.json"
+        ]
+      },
+      "message": "Keys changed",
+      "user": {
+        "name": "Manager Test",
+        "address": "https://opensheaf.org/opensheaf-manager-test-2/"
+      }
+    },
+    "v3": {
+      "created": "2026-11-21T18:14:28Z",
+      "state": {
+        "8fce8b1bb55c17ef9e26d184d0bd66e38491cdfaaf9e8d1fa07a83b0e8ba453c1122403bde145b04a60d72e0bfb986097ece965f41643456b81b954df896d7a6": [
+          "genesis.json"
+        ],
+        "29e8531456ce8f8966538eee3f2c29889130670525bcd8bce9bbcdfc4154119867e1e2eabe6cd4adfe4551414c5491cdd7d716498ee15a54d6890e1a6e79c06b": [
+          "keys.json"
+        ],
+        "223f41bffdbfd69256bcf86da567baccc8e71cc8cef46c2b1933828f90eb759ffa5ec9da692606d5e1ef6d235132d177a51324d3348062d9a4988820382b2496": [
           "object.json"
         ]
       },
