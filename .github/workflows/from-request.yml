@@ -1,0 +1,97 @@
+# Requests made by a page, such as the OpenSheaf manager
+# (https://manager.opensheaf.org/), which writes them to the repository
+# with the author's GitHub sign-in: requests/ID/request.json (the operation
+# and the fields of the corresponding issue form) and the files attached,
+# next to it. Only those who may write to the repository can push them.
+# Each request is carried out by .github/scripts/osheaf_issue.py, as an
+# issue form would be, signing the new versions with the owner's key for the
+# workflows (the repository secret OPENSHEAF_SIGNING_KEY, see the README;
+# without it every request is answered with how to set it); the result is written to requests/results/ID.json
+# for the page to read, and the request is removed. Nothing is committed
+# from a request that fails. Only the last 100 answers are kept (they are
+# for the page, and stay in the history); the archive itself records what
+# each request changed.
+name: from request
+on:
+  push:
+    branches: [main]
+    paths: ["requests/*/request.json"]
+  # also by hand (Actions tab), for requests left waiting, for instance sent
+  # before this workflow was added to the repository
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: read      # the setup reads where GitHub Pages serve the site (its base URL)
+concurrency:
+  group: archive
+  cancel-in-progress: false
+jobs:
+  requests:
+    runs-on: ubuntu-latest
+    steps:
+      # the branch as it is now, not the commit that started this run: runs
+      # wait for one another (concurrency), and a later run must see the
+      # requests that an earlier one carried out and removed
+      - uses: actions/checkout@v4
+        with: {ref: "${{ github.event.repository.default_branch }}"}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.13"}
+      - run: pip install "opensheaf[validate] @ git+https://github.com/opensheaf/opensheaf-py"
+      - name: Carry out the requests, oldest first
+        env:
+          OPENSHEAF_SIGNING_KEY: ${{ secrets.OPENSHEAF_SIGNING_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          start=$(git rev-parse HEAD)
+          echo "START=$start" >> "$GITHUB_ENV"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for f in requests/*/request.json; do     # in order of their names, which begin with the date
+            [ -f "$f" ] || continue
+            dir=$(dirname "$f"); id=$(basename "$dir")
+            [ "$id" = results ] && continue
+            echo "::group::request $id"
+            set +e
+            RESULT_FILE="$RUNNER_TEMP/result.md" COMMIT_FILE="$RUNNER_TEMP/commit.txt" \
+              TITLE_FILE="$RUNNER_TEMP/title.txt" python3 .github/scripts/osheaf_issue.py --request "$f"
+            status=$?
+            set -e
+            if [ $status -ne 0 ]; then
+              # nothing of a failed request is kept
+              git reset -q --hard HEAD && git clean -fdq
+            fi
+            mkdir -p requests/results
+            ID="$id" STATUS="$status" python3 - <<'PY'
+          import json, os, datetime
+          from pathlib import Path
+          tmp = Path(os.environ["RUNNER_TEMP"])
+          read = lambda n: (tmp / n).read_text(encoding="utf-8").strip() if (tmp / n).exists() else ""
+          Path(f"requests/results/{os.environ['ID']}.json").write_text(json.dumps({
+              "id": os.environ["ID"], "ok": os.environ["STATUS"] == "0",
+              "message": read("result.md"), "title": read("title.txt"),
+              "date": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+          }, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+          # the last 100 answers, by name, which begins with the date and time
+          for old in sorted(Path("requests/results").glob("*.json"))[:-100]:
+              old.unlink()
+          PY
+            git rm -r -q "$dir"
+            git add -A
+            if [ $status -eq 0 ]; then
+              git commit -q -F "$RUNNER_TEMP/commit.txt"
+            else
+              git commit -q -m "Request $id not carried out (see requests/results/$id.json)"
+            fi
+            rm -f "$RUNNER_TEMP"/result.md "$RUNNER_TEMP"/commit.txt "$RUNNER_TEMP"/title.txt
+            echo "::endgroup::"
+          done
+      - name: Push
+        run: |
+          # the checks of the git companion (attributes, append-only), then
+          # requests pushed meanwhile start another run; ours goes on top of them
+          python3 .github/scripts/commit_check.py "$START" HEAD
+          for _ in 1 2 3; do
+            git push -q && exit 0
+            git pull -q --rebase
+          done
+          exit 1

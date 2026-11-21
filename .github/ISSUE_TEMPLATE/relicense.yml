@@ -1,0 +1,27 @@
+name: New licence
+description: Give a paper in the archive a more open licence (a new version of its description; the files do not change).
+title: "Licence: "
+labels: ["osheaf: licence"]
+body:
+  - type: input
+    attributes:
+      label: Label
+      description: The paper's label in this archive (as in the address of its page, `.../paper/LABEL/`).
+      placeholder: kpz-uniqueness
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: New licence
+      options:
+        - CC BY 4.0 (cc-by-4.0)
+        - CC BY-SA 4.0 (cc-by-sa-4.0)
+        - CC0 1.0 (cc0-1.0)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: How the authors agreed
+      description: For instance "confirmed by e-mail", or "I am the only author". Recorded with the new licence.
+    validations:
+      required: true

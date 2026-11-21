@@ -1,0 +1,25 @@
+name: Remove a member
+description: Remove a member from a collection of this archive (earlier versions of the collection keep it).
+title: "Remove: "
+labels: ["osheaf: remove"]
+body:
+  - type: input
+    attributes:
+      label: Member to remove
+      description: "The member: its label, if it is a line of this archive or of the archive given below; or its sheaf URI (`sheaf:<name>:<owner>`)."
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: In collection
+      description: The label of the collection of this archive (see its collections/ folder).
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Archive of the member
+      description: For a member of another archive given by its label, the address of that archive.
+  - type: input
+    attributes:
+      label: Why (optional)
+      description: Recorded with the new version of the collection.

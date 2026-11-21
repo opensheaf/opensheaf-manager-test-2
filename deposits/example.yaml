@@ -1,0 +1,25 @@
+# A deposit described in a file: `osheaf deposit --from deposits/example.yaml`.
+# Paths are relative to this file. Values are read as text (dates, arXiv
+# identifiers and version numbers stay as written). A list of such entries
+# deposits several papers, or several versions, in order. Copy and edit.
+# Keep your working files outside the repository, or in work/ (ignored by
+# git): the deposit copies them into the archive.
+id: kpz-uniqueness                 # the label, permanent, in the URL: short, lower case, words joined by -
+new: yes                           # a new paper (its first deposit); remove for a new version
+source: ../work/kpz/paper.tex      # the main source (any format)
+pdf: ../work/kpz/paper.pdf         # the PDF of this version
+extra-sources:                     # other sources, at the path the main source uses
+  - ../work/kpz/refs.bib
+  - {file: ../work/kpz/figures/fig1.pdf, path: figures/fig1.pdf}
+title: Energy solutions of KPZ are unique
+authors:
+  - Doe, Jane|Example University
+  - {name: "Roe, Richard", affiliation: Another University}
+abstract: |
+  We prove that energy solutions of the KPZ equation
+  $\partial_t h = \Delta h + (\partial_x h)^2 + \xi$ are unique.
+keywords: [KPZ equation, energy solutions]
+rights: cc-by-4.0                  # or cc0-1.0, or a statement; default: All rights reserved
+available: 2015-08-31              # when this version became public (default: today)
+related: ["IsIdenticalTo:arxiv:1508.07764"]
+# changes: "Corrected Lemma 3."    # for a new version: what changed

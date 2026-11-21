@@ -1,0 +1,105 @@
+name: New deposit
+description: Deposit a paper in the archive, or a new version of a paper already in it.
+title: "Deposit: "
+labels: ["osheaf: deposit"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill in the form and submit it: the archive's workflow deposits the paper, publishes the site, and answers here with the link. Only the owner of the repository and its collaborators can deposit. Everything attached here becomes public.
+
+        **A new version** of a paper already in the archive: choose "A new version", give the paper's label, attach the new PDF and sources, and say what changed; leave empty what stays the same.
+
+        Every version is signed for the archive's owner by the archive's workflow (with the key of the repository secret `OPENSHEAF_SIGNING_KEY`, see the README).
+  - type: dropdown
+    attributes:
+      label: This deposit
+      description: A new paper gets a new label and a permanent name (its sheaf URI), made once; a new version keeps them.
+      options:
+        - A new paper
+        - A new version of a paper in the archive
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Label
+      description: The paper's label in this archive, in the address of its page (`.../paper/LABEL/`). For a new paper, at most 32 characters, lower-case letters and digits, words joined by `-`; for a new version, the label of the paper. Its permanent name is its sheaf URI; a label is only an address, best never changed.
+      placeholder: kpz-uniqueness
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Title
+      description: Plain text, mathematics in `$...$`.
+  - type: textarea
+    attributes:
+      label: Authors
+      description: One per line, as printed in the paper, `Family, Given|Affiliation` (the affiliation is optional).
+      placeholder: |
+        Doe, Jane|Example University
+        Roe, Richard
+  - type: textarea
+    attributes:
+      label: Abstract
+      description: Plain text, mathematics in `$...$`, paragraphs separated by blank lines.
+  - type: input
+    attributes:
+      label: Keywords
+      description: Separated by commas.
+  - type: dropdown
+    attributes:
+      label: Licence
+      description: 'Check what your publisher allows for papers published in journals. "All rights reserved": readers may read the paper, not copy it; CC BY 4.0: anyone may copy it, with credit. "Keep as before" is for a new version.'
+      options:
+        - CC BY 4.0 (cc-by-4.0)
+        - CC BY-SA 4.0 (cc-by-sa-4.0)
+        - CC0 1.0 (cc0-1.0)
+        - All rights reserved
+        - Keep as before (for a new version)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: PDF of this version
+      description: Drag the PDF here.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Sources
+      description: Drag the sources here, preferably as one zip (GitHub does not accept every type of file, for instance `.tex`, as an attachment); the archive keeps exactly these files.
+  - type: input
+    attributes:
+      label: Main source
+      description: The main file, as a path inside the zip (for instance `paper.tex`). Can be left empty if the zip has a single source file at its top.
+  - type: input
+    attributes:
+      label: Licence file
+      description: Optional. The file among the sources that holds the full text or terms of the licence, as a path inside the zip (for instance `LICENSE`); recorded as the licence of the paper's files.
+  - type: input
+    attributes:
+      label: If there are no sources, why
+      description: For a paper deposited as a PDF alone, for instance "the sources were lost".
+  - type: textarea
+    attributes:
+      label: Related identifiers
+      description: One per line, for instance `IsIdenticalTo:arxiv:1508.07764` or `IsVersionOf:doi:10.1234/abcd`.
+  - type: input
+    attributes:
+      label: What changed (for a new version)
+  - type: input
+    attributes:
+      label: Date this version became public
+      description: YYYY-MM-DD. Empty for today.
+  - type: input
+    attributes:
+      label: Date the paper first appeared
+      description: YYYY-MM-DD, anywhere (for instance on arXiv). Empty to keep as before, or the date above.
+  - type: input
+    attributes:
+      label: In collection
+      description: Optional. The label of a collection of this archive to add the paper to (a reading list, an issue); in a selection, a new version deposited here is vetted. Every paper is listed in the archive's main catalogue anyway.
+  - type: input
+    attributes:
+      label: Position
+      description: Where in that collection (1 for the first); empty for the end.

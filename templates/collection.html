@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}} · {{archive_name}}</title>
+{{head}}
+<link rel="stylesheet" href="{{root}}style.css">
+<script>window.MathJax = {tex: {inlineMath: [['$', '$']], processEscapes: true}};</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
+<script>
+document.addEventListener('click', function (e) {
+  var el = e.target.closest && e.target.closest('code.copy');
+  if (!el || !navigator.clipboard) return;
+  navigator.clipboard.writeText(el.getAttribute('data-copy') || el.textContent).then(function () {
+    el.classList.add('copied');
+    setTimeout(function () { el.classList.remove('copied'); }, 1200);
+  });
+});
+</script>
+</head>
+<body>
+<nav><a href="{{root}}">{{archive_name}}</a></nav>
+<main class="paper-page collection-page">
+  <h1>{{title}}</h1>
+  <p class="paper-authors">{{kind}}</p>
+  <p class="paper-meta">Since {{issued}} · {{count}}</p>
+  {{withdrawn}}
+  {{contested}}
+  <dl class="identifiers">
+    <dt>Line</dt><dd><code class="copy">{{sheaf_uri}}</code> <span class="small">(short: <code class="copy">{{sheaf_short}}</code>)</span></dd>
+    <dt>Owner</dt><dd>{{owner}}</dd>
+  </dl>
+  <section class="abstract">
+    {{description}}
+  </section>
+  <section>
+    <h2>Members</h2>
+    <ol class="papers">
+{{members}}
+    </ol>
+  </section>
+  <section>
+    <h2>Versions</h2>
+    <ol class="versions">
+{{versions}}
+    </ol>
+  </section>
+  <section>
+    <h2>Cite</h2>
+    <p class="cite">{{cite}}</p>
+    <p class="small">Licence: {{licence}}</p>
+    <p class="small">Pin in the collection (SHA-512 of the inventory it fixes):
+    <code class="copy">{{pin}}</code> (<a href="{{pin_url}}">the inventory</a>)</p>
+  </section>
+</main>
+<footer>
+  <p>An <a href="https://opensheaf.org">OpenSheaf</a> archive (format 0.2, a draft, which may still change) ·
+  made with <a href="https://github.com/opensheaf/opensheaf-py">opensheaf-py</a></p>
+</footer>
+</body>
+</html>

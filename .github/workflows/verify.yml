@@ -1,0 +1,24 @@
+# Check the archive on every push and pull request: osheaf verify (the checks
+# of section 14 of the OpenSheaf specification, the JSON Schemas and the OCFL
+# validator), and the checks of the git companion of the specification
+# (.github/scripts/commit_check.py: attributes, no pointers or links,
+# append-only between the commit before and this one).
+name: verify
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install "opensheaf[validate] @ git+https://github.com/opensheaf/opensheaf-py"
+      - name: osheaf verify
+        run: |
+          if [ -f osheaf.json ]; then osheaf verify; else echo "not set up yet: see the README (the key ceremony, then Set up the archive)"; fi
+      - name: The checks of the git companion
+        env:
+          BASE: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+        run: python3 .github/scripts/commit_check.py "$BASE" HEAD

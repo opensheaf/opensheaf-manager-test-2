@@ -1,0 +1,20 @@
+# The settings of your archive, for `osheaf init . --from archive.yaml` (the
+# key ceremony of the README). Edit them, then run the command once, on your
+# own computer: it writes osheaf.json and makes the owner of the archive.
+name: Papers of Jane Doe
+base-url: https://janedoe.github.io/papers/   # where the site is served
+curator: Doe, Jane                         # "Family, Given"
+affiliation: Example University
+contact: https://example.org/~jane         # a page or mailto: address
+# The owner, who signs every version (section 6 of the specification). A new
+# owner: a current key for this computer, kept in its credential store, and
+# three rotation keys (two of which sign a change of keys), exported once,
+# encrypted under a passphrase, to a folder outside the repository (a USB
+# stick, say), with sheets to print. Rotation keys are never stored here.
+new-owner: yes
+export: /Volumes/USB/opensheaf-keys
+print: yes
+# Or an existing owner, from the folder of its owner object in another
+# archive (instead of the three lines above):
+# owner: <the owner name>
+# key-log: ../papers/ocfl/<the owner name>/<the owner name>

@@ -1,0 +1,48 @@
+name: New collection
+description: Create a collection in this archive (a reading list, a journal issue, the papers of a seminar), with members from any archive.
+title: "Collection: "
+labels: ["osheaf: collection"]
+body:
+  - type: markdown
+    attributes:
+      value: A collection is a line of the archive, signed by its owner, that lists papers (and other collections) of any OpenSheaf archive, pinned by digest. A **selection** vets particular versions (a reading list, a journal issue); a **catalogue** follows its members whatever their authors add (the papers of a group). Add members with the form **Add a member**, naming the collection in **In collection**. Only the repository's owner and collaborators can create one.
+  - type: input
+    attributes:
+      label: Label of the new collection
+      description: Its label in this archive, in the address of its page (at most 32 characters, lower-case letters and digits, words joined by `-`).
+      placeholder: reading-list
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Title of the collection
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Kind
+      options:
+        - selection
+        - catalogue
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: A sentence or two; shown as the lead of the home page if the collection is featured.
+  - type: dropdown
+    attributes:
+      label: Feature it on the home page
+      description: The home page lists a featured collection first, then the archive's own papers.
+      options:
+        - "No"
+        - "Yes"
+      default: 0
+  - type: input
+    attributes:
+      label: In collection
+      description: Optional. To put it inside another collection of this archive (a section of a reading list, an issue of a journal), that collection's label.
+  - type: input
+    attributes:
+      label: Position
+      description: Where in that collection (1 for the first); empty for the end.

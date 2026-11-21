@@ -1,0 +1,53 @@
+name: From arXiv
+description: Deposit a paper from arXiv, with all its versions or some of them, byte for byte. Only an author of the paper, or someone with the authors' permission.
+title: "From arXiv: "
+labels: ["osheaf: deposit"]
+body:
+  - type: markdown
+    attributes:
+      value: arXiv's licence lets arXiv distribute a paper, not others. Deposit a paper from arXiv here only if you are one of its authors, or if its authors gave you permission; what you state is recorded with each version.
+  - type: input
+    attributes:
+      label: arXiv identifier
+      placeholder: "2303.18112"
+      description: The paper's identifier, or the address of its page. With a version (2303.18112v2), only that version, unless Versions says otherwise.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Label
+      placeholder: kpz-uniqueness
+      description: Its label in this archive, in the address of its page (at most 32 characters, lower-case letters and digits, words joined by -). For a paper already imported from arXiv, its label adds its new versions.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Versions
+      placeholder: v1, v3
+      description: Empty for all the versions on arXiv.
+  - type: dropdown
+    attributes:
+      label: Right to deposit it
+      options:
+        - I am an author of the paper
+        - The authors gave me permission
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Who agreed
+      placeholder: Doe, Jane
+      description: Your name if you are an author; otherwise the authors who gave permission, one per line (Family, Given). Recorded with each version.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: How the permission was given
+      description: If the authors gave permission, how and when (for instance "by e-mail, 3 May 2026"). Recorded with each version; no e-mail addresses.
+  - type: input
+    attributes:
+      label: In collection
+      description: Optional. The label of a collection of this archive to add the paper to.
+  - type: input
+    attributes:
+      label: Position

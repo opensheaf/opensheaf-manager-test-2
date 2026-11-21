@@ -1,0 +1,31 @@
+name: Notice
+description: Add a notice (for instance an erratum) about a version of a paper in the archive.
+title: "Notice: "
+labels: ["osheaf: notice"]
+body:
+  - type: markdown
+    attributes:
+      value: A notice is a statement about a version, kept with it and shown with it; the version itself never changes. Only the owner of the repository and its collaborators can add notices.
+  - type: input
+    attributes:
+      label: Label
+      description: The paper's label in this archive (as in the address of its page, `.../paper/LABEL/`).
+      placeholder: kpz-uniqueness
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Document version it is about
+      description: A number (1, 2, ...).
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Text of the notice
+      description: Plain text.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Full statement (optional)
+      description: A file with the full statement (a PDF, for instance), dragged here.

@@ -1,0 +1,33 @@
+name: Vet a new version
+description: In a selection, add a later version of a member to the versions you vet.
+title: "Vet: "
+labels: ["osheaf: vet"]
+body:
+  - type: markdown
+    attributes:
+      value: A selection changes only by your act. When a member's authors add a version, the workflow "Update the collections" reports it; vet it here if you wish.
+  - type: input
+    attributes:
+      label: Member
+      description: "The member: its label, if it is a line of this archive or of the archive given below; or its sheaf URI (`sheaf:<name>:<owner>`)."
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Versions to vet
+      description: Document versions, e.g. `6`.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: In collection
+      description: The label of the collection of this archive (see its collections/ folder).
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Archive of the member
+      description: For a member of another archive given by its label, the address of that archive.
+  - type: input
+    attributes:
+      label: Why (optional)

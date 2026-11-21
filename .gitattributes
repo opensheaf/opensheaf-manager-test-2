@@ -1,0 +1,15 @@
+# OpenSheaf archive files: stored and checked out byte for byte,
+# never merged as text (OpenSheaf archives in git, section 4.1). Every
+# attribute is named, so that no attribute of the user's own settings (a
+# user-wide `*.pdf filter=lfs`, for instance) applies to them.
+opensheaf.json -text -filter -ident -working-tree-encoding -export-subst -merge
+ocfl/**        -text -filter -ident -working-tree-encoding -export-subst -merge
+indexes.json   -text -filter -ident -working-tree-encoding -export-subst -merge
+names/**       -text -filter -ident -working-tree-encoding -export-subst -merge
+owners/**      -text -filter -ident -working-tree-encoding -export-subst -merge
+sha512/**      -text -filter -ident -working-tree-encoding -export-subst -merge
+# Requests from a page carry the files to deposit, and key-log/ holds the
+# owner's key log given to the setup: byte for byte too.
+requests/**    -text -filter -ident -working-tree-encoding -export-subst -merge
+key-log/**     -text -filter -ident -working-tree-encoding -export-subst -merge
+*.pdf binary
