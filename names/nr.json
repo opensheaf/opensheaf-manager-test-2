@@ -10,6 +10,15 @@
       "originator": "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
       "genesis": "{\n  \"format\": \"opensheaf-genesis/0.2\",\n  \"kind\": \"document\",\n  \"created\": \"2026-11-21T18:22:08Z\",\n  \"originator\": \"3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq\",\n  \"nonce\": \"3aeca2185e053cfb2c78f9fbc0e6b66b\"\n}\n",
       "label": "qed-g-2"
+    },
+    {
+      "name": "nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq",
+      "owner": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
+      "id": "sheaf:nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq:zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
+      "status": "active",
+      "originator": "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
+      "genesis": "{\n  \"format\": \"opensheaf-genesis/0.2\",\n  \"kind\": \"document\",\n  \"created\": \"2026-11-21T18:22:08Z\",\n  \"originator\": \"3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq\",\n  \"nonce\": \"3aeca2185e053cfb2c78f9fbc0e6b66b\"\n}\n",
+      "label": "qed-g-2-member-b"
     }
   ]
 }

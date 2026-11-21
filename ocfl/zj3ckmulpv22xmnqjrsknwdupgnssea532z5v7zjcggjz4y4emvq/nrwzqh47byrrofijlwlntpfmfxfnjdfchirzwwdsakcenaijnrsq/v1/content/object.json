@@ -1,0 +1,35 @@
+{
+  "format": "opensheaf-object/0.2",
+  "specification": "0.2",
+  "kind": "document",
+  "name": "nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq",
+  "owner": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
+  "parent": {
+    "owner": "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
+    "name": "nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq",
+    "objectVersion": "v1",
+    "documentVersion": 1,
+    "inventorySha512": "8abf7f9f914f571dfe7a92e9f0b10b0673a608c3c53ef5df23b15602899301b941698ce892d9835a0d62fb3758e317ee00cf5a3c123804fdf1a61a928a41eefc",
+    "url": "https://opensheaf.org/opensheaf-manager-test-2/ocfl/3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq/nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq/v1/"
+  },
+  "documentVersion": 1,
+  "mainSource": "source/EW_g.tex",
+  "sourceFormat": "application/x-tex",
+  "renditions": [
+    {
+      "path": "paper.pdf",
+      "mediaType": "application/pdf"
+    }
+  ],
+  "changes": {
+    "text": "55 pages, 7 figures"
+  },
+  "agreement": {
+    "by": [
+      "Vieri, Mastropietro"
+    ],
+    "date": "2026-11-21",
+    "method": "permission of the authors to deposit it from arXiv: by e-mail on Nov 21 2026"
+  },
+  "status": "active"
+}

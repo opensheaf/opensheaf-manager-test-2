@@ -1,0 +1,29 @@
+{
+  "format": "opensheaf-object/0.2",
+  "specification": "0.2",
+  "kind": "document",
+  "name": "nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq",
+  "owner": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
+  "documentVersion": 2,
+  "mainSource": "paper.tex",
+  "sourceFormat": "application/x-tex",
+  "renditions": [
+    {
+      "path": "paper.pdf",
+      "mediaType": "application/pdf"
+    }
+  ],
+  "status": "active",
+  "changes": {
+    "text": "A correction by member-b (a test of branches)."
+  },
+  "parent": {
+    "owner": "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
+    "name": "nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq",
+    "objectVersion": "v1",
+    "documentVersion": 1,
+    "inventorySha512": "8abf7f9f914f571dfe7a92e9f0b10b0673a608c3c53ef5df23b15602899301b941698ce892d9835a0d62fb3758e317ee00cf5a3c123804fdf1a61a928a41eefc",
+    "url": "https://opensheaf.org/opensheaf-manager-test-2/ocfl/3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq/nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq/v1/"
+  },
+  "previous": "50e7a6e3de709336d9c2daf989f469276dff710ac4a788969f3c4b310e5fb03deefe317a39af5c7c6138fe1b66c7d98c314e13a3dcaace070cbc60f1db3e4d5d"
+}

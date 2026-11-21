@@ -1,0 +1,733 @@
+{
+   "sources" : [
+      {
+         "usage" : "toplevel",
+         "filename" : "EW_g.tex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "EW_g.auxlock"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "EW_g.bcf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "EW_g.out"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "EW_g.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "EW_g.toc"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure0.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure0.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure0.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure0.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure0.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure1.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure1.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure1.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure1.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure1.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure10.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure10.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure10.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure10.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure10.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure11.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure11.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure11.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure11.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure11.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure12.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure12.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure12.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure12.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure12.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure13.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure13.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure13.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure13.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure13.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure14.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure14.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure14.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure14.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure14.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure15.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure15.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure15.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure15.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure15.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure16.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure16.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure16.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure16.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure16.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure17.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure17.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure17.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure17.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure17.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure18.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure18.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure18.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure18.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure18.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure19.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure19.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure19.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure19.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure19.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure2.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure2.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure2.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure2.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure2.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure20.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure20.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure20.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure20.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure20.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure21.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure21.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure21.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure21.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure21.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure22.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure22.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure22.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure22.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure22.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure23.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure23.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure23.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure23.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure23.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure24.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure24.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure24.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure24.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure24.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure25.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure25.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure25.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure25.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure25.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure26.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure26.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure26.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure26.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure26.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure27.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure27.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure27.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure27.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure27.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure28.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure28.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure28.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure28.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure28.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure29.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure29.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure29.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure29.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure29.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure3.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure3.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure3.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure3.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure3.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure30.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure30.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure30.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure30.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure30.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure31.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure31.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure31.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure31.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure31.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure32.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure32.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure32.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure32.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure32.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure33.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure33.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure33.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure33.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure33.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure34.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure34.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure34.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure34.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure34.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure4.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure4.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure4.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure4.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure5.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure5.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure5.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure5.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure5.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure6.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure6.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure6.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure6.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure6.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure7.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure7.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure7.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure7.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure7.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure8.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure8.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure8.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure8.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure8.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure9.dpth"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure9.log"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure9.md5"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure9.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "Images/EW_g-figure9.run.xml"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "texput.log"
+      }
+   ],
+   "spec_version" : 1,
+   "texlive_version" : "2023",
+   "process" : {
+      "compiler" : "pdflatex"
+   }
+}

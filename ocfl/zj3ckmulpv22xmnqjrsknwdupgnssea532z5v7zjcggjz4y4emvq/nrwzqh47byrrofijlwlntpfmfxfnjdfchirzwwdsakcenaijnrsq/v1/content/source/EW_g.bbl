@@ -1,0 +1,1415 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Aoyama_2012}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c281468844d4840a32db1e8f6a8d98a6}{%
+           family={Aoyama},
+           familyi={A\bibinitperiod},
+           given={Tatsumi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ab892f53457583ebd301e0634cf6c182}{%
+           family={Hayakawa},
+           familyi={H\bibinitperiod},
+           given={Masashi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6b467d3bf9c0cb72ff9985d143a8b386}{%
+           family={Kinoshita},
+           familyi={K\bibinitperiod},
+           given={Toichiro},
+           giveni={T\bibinitperiod}}}%
+        {{hash=95c1a4d05c3563a056e0810ced122a87}{%
+           family={Nio},
+           familyi={N\bibinitperiod},
+           given={Makiko},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{624ad67c00923b980fb7a9255fd4e94c}
+      \strng{fullhash}{857a03152b65b24cbdf4d9a738909ad0}
+      \strng{bibnamehash}{857a03152b65b24cbdf4d9a738909ad0}
+      \strng{authorbibnamehash}{857a03152b65b24cbdf4d9a738909ad0}
+      \strng{authornamehash}{624ad67c00923b980fb7a9255fd4e94c}
+      \strng{authorfullhash}{857a03152b65b24cbdf4d9a738909ad0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{11}
+      \field{month}{09}
+      \field{title}{Tenth-Order QED Contribution to the Electron $g\mathbf{\ensuremath{-}}2$ and an Improved Value of the Fine Structure Constant}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{111807}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.109.111807
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.111807
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.111807
+      \endverb
+    \endentry
+    \entry{Aguillard_2023}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=f843cb9fce5c30c4b94e7ab93195f835}{%
+           family={Aguillard},
+           familyi={A\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{c6cec5c5db81f716723560f8333d893f}
+      \strng{fullhash}{c6cec5c5db81f716723560f8333d893f}
+      \strng{bibnamehash}{c6cec5c5db81f716723560f8333d893f}
+      \strng{authorbibnamehash}{c6cec5c5db81f716723560f8333d893f}
+      \strng{authornamehash}{c6cec5c5db81f716723560f8333d893f}
+      \strng{authorfullhash}{c6cec5c5db81f716723560f8333d893f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1079-7114}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{10}
+      \field{number}{16}
+      \field{title}{Measurement of the Positive Muon Anomalous Magnetic Moment to 0.20 ppm}
+      \field{volume}{131}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1103/physrevlett.131.161802
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.131.161802
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.131.161802
+      \endverb
+    \endentry
+    \entry{Dirac_1930}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c32fd98f2e1a3c3c9b08d579f34898d6}{%
+           family={Dirac},
+           familyi={D\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Clarendon Press}%
+      }
+      \strng{namehash}{c32fd98f2e1a3c3c9b08d579f34898d6}
+      \strng{fullhash}{c32fd98f2e1a3c3c9b08d579f34898d6}
+      \strng{bibnamehash}{c32fd98f2e1a3c3c9b08d579f34898d6}
+      \strng{authorbibnamehash}{c32fd98f2e1a3c3c9b08d579f34898d6}
+      \strng{authornamehash}{c32fd98f2e1a3c3c9b08d579f34898d6}
+      \strng{authorfullhash}{c32fd98f2e1a3c3c9b08d579f34898d6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Principles of Quantum Mechanics}
+      \field{year}{1930}
+    \endentry
+    \entry{Schwinger_1948}{article}{}
+      \name{author}{1}{}{%
+        {{hash=58ec47507ae88e7af6a33e2a67b59e70}{%
+           family={Schwinger},
+           familyi={S\bibinitperiod},
+           given={Julian\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{58ec47507ae88e7af6a33e2a67b59e70}
+      \strng{fullhash}{58ec47507ae88e7af6a33e2a67b59e70}
+      \strng{bibnamehash}{58ec47507ae88e7af6a33e2a67b59e70}
+      \strng{authorbibnamehash}{58ec47507ae88e7af6a33e2a67b59e70}
+      \strng{authornamehash}{58ec47507ae88e7af6a33e2a67b59e70}
+      \strng{authorfullhash}{58ec47507ae88e7af6a33e2a67b59e70}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{On Quantum electrodynamics and the magnetic moment of the electron}
+      \field{year}{1948}
+      \field{pages}{416\bibrangedash 417}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1103/PhysRev.73.416
+      \endverb
+    \endentry
+    \entry{Karplus_Kroll_1950}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7f22da35c1f6041deadc494ca5330908}{%
+           family={Karplus},
+           familyi={K\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cdcbcbd02700d8017174671752f88381}{%
+           family={Kroll},
+           familyi={K\bibinitperiod},
+           given={Norman\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{f7b0cb1376725a1eb20b06b83c119a13}
+      \strng{fullhash}{f7b0cb1376725a1eb20b06b83c119a13}
+      \strng{bibnamehash}{f7b0cb1376725a1eb20b06b83c119a13}
+      \strng{authorbibnamehash}{f7b0cb1376725a1eb20b06b83c119a13}
+      \strng{authornamehash}{f7b0cb1376725a1eb20b06b83c119a13}
+      \strng{authorfullhash}{f7b0cb1376725a1eb20b06b83c119a13}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{02}
+      \field{title}{Fourth-Order Corrections in Quantum Electrodynamics and the Magnetic Moment of the Electron}
+      \field{volume}{77}
+      \field{year}{1950}
+      \field{pages}{536\bibrangedash 549}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1103/PhysRev.77.536
+      \endverb
+    \endentry
+    \entry{Petermann_1958}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7535b6aa8f88b20e7a465f469c409fd3}{%
+           family={Petermann},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7535b6aa8f88b20e7a465f469c409fd3}
+      \strng{fullhash}{7535b6aa8f88b20e7a465f469c409fd3}
+      \strng{bibnamehash}{7535b6aa8f88b20e7a465f469c409fd3}
+      \strng{authorbibnamehash}{7535b6aa8f88b20e7a465f469c409fd3}
+      \strng{authornamehash}{7535b6aa8f88b20e7a465f469c409fd3}
+      \strng{authorfullhash}{7535b6aa8f88b20e7a465f469c409fd3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0029-5582}
+      \field{journaltitle}{Nuclear Physics}
+      \field{title}{Fourth order magnetic moment of the electron}
+      \field{volume}{5}
+      \field{year}{1958}
+      \field{pages}{677\bibrangedash 683}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0029-5582(58)90065-8
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0029558258900658
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0029558258900658
+      \endverb
+    \endentry
+    \entry{Sommerfeld_1958}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9b3c7442a5c506799ea49cc035b157c7}{%
+           family={Sommerfield},
+           familyi={S\bibinitperiod},
+           given={Charles\bibnamedelima M},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b3c7442a5c506799ea49cc035b157c7}
+      \strng{fullhash}{9b3c7442a5c506799ea49cc035b157c7}
+      \strng{bibnamehash}{9b3c7442a5c506799ea49cc035b157c7}
+      \strng{authorbibnamehash}{9b3c7442a5c506799ea49cc035b157c7}
+      \strng{authornamehash}{9b3c7442a5c506799ea49cc035b157c7}
+      \strng{authorfullhash}{9b3c7442a5c506799ea49cc035b157c7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0003-4916}
+      \field{journaltitle}{Annals of Physics}
+      \field{number}{1}
+      \field{title}{The magnetic moment of the electron}
+      \field{volume}{5}
+      \field{year}{1958}
+      \field{pages}{26\bibrangedash 57}
+      \range{pages}{32}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0003-4916(58)90003-4
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0003491658900034
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0003491658900034
+      \endverb
+    \endentry
+    \entry{Laporta_1996}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5b5cc9d1907b21cfd5b49aeff48d54ce}{%
+           family={Laporta},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e21e27b0673e6618e21dff36cada4c06}{%
+           family={Remiddi},
+           familyi={R\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{4305ee20d3d5211fcc20e0e826216954}
+      \strng{fullhash}{4305ee20d3d5211fcc20e0e826216954}
+      \strng{bibnamehash}{4305ee20d3d5211fcc20e0e826216954}
+      \strng{authorbibnamehash}{4305ee20d3d5211fcc20e0e826216954}
+      \strng{authornamehash}{4305ee20d3d5211fcc20e0e826216954}
+      \strng{authorfullhash}{4305ee20d3d5211fcc20e0e826216954}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0370-2693}
+      \field{journaltitle}{Physics Letters B}
+      \field{month}{06}
+      \field{number}{1–4}
+      \field{title}{The analytical value of the electron $(g - 2)$ at order $\alpha^3$ in QED}
+      \field{volume}{379}
+      \field{year}{1996}
+      \field{pages}{283\bibrangedash 291}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/0370-2693(96)00439-x
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/0370-2693(96)00439-X
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/0370-2693(96)00439-X
+      \endverb
+    \endentry
+    \entry{Weinberg_1964}{article}{}
+      \name{author}{1}{}{%
+        {{hash=15e144c72b0b9d10db00ddc6d37a19e6}{%
+           family={Weinberg},
+           familyi={W\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{15e144c72b0b9d10db00ddc6d37a19e6}
+      \strng{fullhash}{15e144c72b0b9d10db00ddc6d37a19e6}
+      \strng{bibnamehash}{15e144c72b0b9d10db00ddc6d37a19e6}
+      \strng{authorbibnamehash}{15e144c72b0b9d10db00ddc6d37a19e6}
+      \strng{authornamehash}{15e144c72b0b9d10db00ddc6d37a19e6}
+      \strng{authorfullhash}{15e144c72b0b9d10db00ddc6d37a19e6}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{21}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{11}
+      \field{title}{A Model of Leptons}
+      \field{volume}{19}
+      \field{year}{1967}
+      \field{pages}{1264\bibrangedash 1266}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.19.1264
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.19.1264
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.19.1264
+      \endverb
+    \endentry
+    \entry{Jackiw_Weinberg_1972}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4b53bfbcc666225a5779363f45c96476}{%
+           family={Jackiw},
+           familyi={J\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod}}}%
+        {{hash=15e144c72b0b9d10db00ddc6d37a19e6}{%
+           family={Weinberg},
+           familyi={W\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{24dab477e59325be06884e29892b5c67}
+      \strng{fullhash}{24dab477e59325be06884e29892b5c67}
+      \strng{bibnamehash}{24dab477e59325be06884e29892b5c67}
+      \strng{authorbibnamehash}{24dab477e59325be06884e29892b5c67}
+      \strng{authornamehash}{24dab477e59325be06884e29892b5c67}
+      \strng{authorfullhash}{24dab477e59325be06884e29892b5c67}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{9}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{05}
+      \field{title}{Weak-Interaction Corrections to the Muon Magnetic Moment and to Muonic-Atom Energy Levels}
+      \field{volume}{5}
+      \field{year}{1972}
+      \field{pages}{2396\bibrangedash 2398}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.5.2396
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.5.2396
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.5.2396
+      \endverb
+    \endentry
+    \entry{Altarelli_1972}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0683e45241811627b386f847d849d2b3}{%
+           family={Altarelli},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=73e31acea8c6106363473a40291edfd6}{%
+           family={Cabibbo},
+           familyi={C\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3b4be81c69f9cd45c3fae33d860eade3}{%
+           family={Maiani},
+           familyi={M\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5f98a4aaf5483126e3c720a90d45735}
+      \strng{fullhash}{0bc12c27955219e274e94b5dad5a3f18}
+      \strng{bibnamehash}{0bc12c27955219e274e94b5dad5a3f18}
+      \strng{authorbibnamehash}{0bc12c27955219e274e94b5dad5a3f18}
+      \strng{authornamehash}{f5f98a4aaf5483126e3c720a90d45735}
+      \strng{authorfullhash}{0bc12c27955219e274e94b5dad5a3f18}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0370-2693}
+      \field{journaltitle}{Physics Letters B}
+      \field{number}{3}
+      \field{title}{The Drell-Hearn sum rule and the lepton magnetic moment in the Weinberg model of weak and electromagnetic interactions}
+      \field{volume}{40}
+      \field{year}{1972}
+      \field{pages}{415\bibrangedash 419}
+      \range{pages}{5}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0370-2693(72)90833-7
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0370269372908337
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0370269372908337
+      \endverb
+    \endentry
+    \entry{Rousset_1994}{article}{}
+      \name{author}{1}{}{%
+        {{hash=62998f95981cda6c06b89aab24da8d5c}{%
+           family={Rousset},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=b3dfac4fefc28d86303febd9a2abcd3b}{%
+           family={Harigel},
+           familyi={H\bibinitperiod},
+           given={G.\bibnamedelimi G.},
+           giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=fc1043c68ce1d030812f07bf4a8b9578}{%
+           family={Colley},
+           familyi={C\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=31cc2688c1626c7b0329e7a255dc5fb6}{%
+           family={Cundy},
+           familyi={C\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{62998f95981cda6c06b89aab24da8d5c}
+      \strng{fullhash}{62998f95981cda6c06b89aab24da8d5c}
+      \strng{bibnamehash}{62998f95981cda6c06b89aab24da8d5c}
+      \strng{authorbibnamehash}{62998f95981cda6c06b89aab24da8d5c}
+      \strng{authornamehash}{62998f95981cda6c06b89aab24da8d5c}
+      \strng{authorfullhash}{62998f95981cda6c06b89aab24da8d5c}
+      \strng{editorbibnamehash}{a126f94c336ab0b9b65e1d5d85f65b55}
+      \strng{editornamehash}{3140a73c1dbd52f41e4c1aeaaf1fbb94}
+      \strng{editorfullhash}{a126f94c336ab0b9b65e1d5d85f65b55}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucl. Phys. B Proc. Suppl.}
+      \field{title}{The discovery of weak neutral currents}
+      \field{volume}{36}
+      \field{year}{1994}
+      \field{pages}{339\bibrangedash 361}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1016/0920-5632(94)90785-4
+      \endverb
+    \endentry
+    \entry{Fredenhagen_2007}{article}{}
+      \name{author}{3}{}{%
+        {{hash=03d59a8127b00fb787022187988dacbe}{%
+           family={Fredenhagen},
+           familyi={F\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=35a50a00c57042f4437bdf16cf4e1334}{%
+           family={Rehren},
+           familyi={R\bibinitperiod},
+           given={K.-H.},
+           giveni={K\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=f69b94de4bdd5a4efd900dd1c72c4747}{%
+           family={Seiler},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{867abe703cd0650234e1edffcce2cb19}
+      \strng{fullhash}{468caac833a4a3d0bf1d6fb0eb96a9d3}
+      \strng{bibnamehash}{468caac833a4a3d0bf1d6fb0eb96a9d3}
+      \strng{authorbibnamehash}{468caac833a4a3d0bf1d6fb0eb96a9d3}
+      \strng{authornamehash}{867abe703cd0650234e1edffcce2cb19}
+      \strng{authorfullhash}{468caac833a4a3d0bf1d6fb0eb96a9d3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Approaches to Fundamental Physics}
+      \field{isbn}{9783540711179}
+      \field{issn}{0075-8450}
+      \field{title}{Quantum Field Theory: Where We Are}
+      \field{year}{2007}
+      \field{pages}{61\bibrangedash 87}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/978-3-540-71117-9_4
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-3-540-71117-9_4
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-540-71117-9_4
+      \endverb
+    \endentry
+    \entry{Frohlich_1982}{article}{}
+      \name{author}{1}{}{%
+        {{hash=657f6e87c78ae4100eba6ebca6efbe3d}{%
+           family={Fröhlich},
+           familyi={F\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{657f6e87c78ae4100eba6ebca6efbe3d}
+      \strng{fullhash}{657f6e87c78ae4100eba6ebca6efbe3d}
+      \strng{bibnamehash}{657f6e87c78ae4100eba6ebca6efbe3d}
+      \strng{authorbibnamehash}{657f6e87c78ae4100eba6ebca6efbe3d}
+      \strng{authornamehash}{657f6e87c78ae4100eba6ebca6efbe3d}
+      \strng{authorfullhash}{657f6e87c78ae4100eba6ebca6efbe3d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucl. Phys. B}
+      \field{title}{On the Triviality of $\lambda \phi^4$ in $D$-Dimensions Theories and the Approach to the Critical Point in $D>4$ Dimensions}
+      \field{volume}{200}
+      \field{year}{1982}
+      \field{pages}{281\bibrangedash 296}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/0550-3213(82)90088-8
+      \endverb
+    \endentry
+    \entry{Aizenman_Copin_2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=dce3e645b1d05db84cf4230e5e57612e}{%
+           family={Aizenman},
+           familyi={A\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3958f315c246adbd73a700a7aad801fc}{%
+           family={Duminil-Copin},
+           familyi={D\bibinithyphendelim C\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Department of Mathematics of Princeton University}%
+      }
+      \strng{namehash}{6a9c2888acd426284769bec28d724dde}
+      \strng{fullhash}{6a9c2888acd426284769bec28d724dde}
+      \strng{bibnamehash}{6a9c2888acd426284769bec28d724dde}
+      \strng{authorbibnamehash}{6a9c2888acd426284769bec28d724dde}
+      \strng{authornamehash}{6a9c2888acd426284769bec28d724dde}
+      \strng{authorfullhash}{6a9c2888acd426284769bec28d724dde}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Mathematics}
+      \field{number}{1}
+      \field{title}{Marginal triviality of the scaling limits of critical 4D Ising and $\lambda\phi_4^4$ models}
+      \field{volume}{194}
+      \field{year}{2021}
+      \field{pages}{163\bibrangedash 235}
+      \range{pages}{73}
+      \verb{doi}
+      \verb 10.4007/annals.2021.194.1.3
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.4007/annals.2021.194.1.3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.4007/annals.2021.194.1.3
+      \endverb
+      \keyw{Critical behavior,field theory,Ising model,marginal dimension,scaling limits}
+    \endentry
+    \entry{Mastropietro_2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c6fbf580be6bb3e6d5e6e5299fe03d69}{%
+           family={Mastropietro},
+           familyi={M\bibinitperiod},
+           given={Vieri},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{fullhash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{bibnamehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{authorbibnamehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{authornamehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{authorfullhash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{7}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{10}
+      \field{title}{Nonperturbative RG for the weak interaction corrections to the magnetic moment}
+      \field{volume}{110}
+      \field{year}{2024}
+      \field{pages}{073003}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.110.073003
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.110.073003
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.110.073003
+      \endverb
+    \endentry
+    \entry{Bauerschmidt_2019}{book}{}
+      \name{author}{3}{}{%
+        {{hash=870f105738e28853493fc78554ad63cd}{%
+           family={Bauerschmidt},
+           familyi={B\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b3155fb6046f9bf4fbfc357be55e894e}{%
+           family={Brydges},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=77264813f5eff34add8c98fb67b7b1ad}{%
+           family={Slade},
+           familyi={S\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Singapore}%
+      }
+      \strng{namehash}{9be4a3aec210bf9e4d1da4530d790a10}
+      \strng{fullhash}{9250b4bdc33ee9ec82cf94871583a7d6}
+      \strng{bibnamehash}{9250b4bdc33ee9ec82cf94871583a7d6}
+      \strng{authorbibnamehash}{9250b4bdc33ee9ec82cf94871583a7d6}
+      \strng{authornamehash}{9be4a3aec210bf9e4d1da4530d790a10}
+      \strng{authorfullhash}{9250b4bdc33ee9ec82cf94871583a7d6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789813295933}
+      \field{issn}{1617-9692}
+      \field{journaltitle}{Lecture Notes in Mathematics}
+      \field{title}{Introduction to a Renormalisation Group Method}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1007/978-981-32-9593-3
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-981-32-9593-3
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-981-32-9593-3
+      \endverb
+    \endentry
+    \entry{Feldman_2002}{book}{}
+      \name{author}{3}{}{%
+        {{hash=bbdff7daae75a919debfeba64791c251}{%
+           family={Feldman},
+           familyi={F\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=93a3426f72f09b140c34c5d491b718f4}{%
+           family={Knorrer},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e4421cfff4fe83c8b6ee945c136f450e}{%
+           family={Trubowitz},
+           familyi={T\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{56bd59f4d16f2867b2ef33d5bb344c69}
+      \strng{fullhash}{b42ff9d9fc276f11eb14a6229e6bf44b}
+      \strng{bibnamehash}{b42ff9d9fc276f11eb14a6229e6bf44b}
+      \strng{authorbibnamehash}{b42ff9d9fc276f11eb14a6229e6bf44b}
+      \strng{authornamehash}{56bd59f4d16f2867b2ef33d5bb344c69}
+      \strng{authorfullhash}{b42ff9d9fc276f11eb14a6229e6bf44b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fermionic Functional Integrals and the Renormalization Group}
+      \field{year}{2002}
+    \endentry
+    \entry{Peskin_1995}{book}{}
+      \name{author}{2}{}{%
+        {{hash=e148b6b43275e52828b8df297254414c}{%
+           family={Peskin},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima Edward},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=cc0fe4ad0bcb2f8883e7f5e5b5287dd9}{%
+           family={Schroeder},
+           familyi={S\bibinitperiod},
+           given={Daniel\bibnamedelima V.},
+           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Westview Press}%
+      }
+      \strng{namehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{fullhash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{bibnamehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{authorbibnamehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{authornamehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{authorfullhash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Reading, USA: Addison-Wesley (1995) 842 p}
+      \field{title}{An Introduction to Quantum Field Theory}
+      \field{year}{1995}
+    \endentry
+    \entry{Mastropietro_2007}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c6fbf580be6bb3e6d5e6e5299fe03d69}{%
+           family={Mastropietro},
+           familyi={M\bibinitperiod},
+           given={Vieri},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{fullhash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{bibnamehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{authorbibnamehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{authornamehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{authorfullhash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Math. Phys.}
+      \field{title}{Renormalization group and Ward identities for infrared QED4}
+      \field{volume}{48}
+      \field{year}{2007}
+      \field{pages}{102303}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.2800156
+      \endverb
+    \endentry
+    \entry{Giuliani_Mastropietro_Porta_2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3a159de9b283f4a7b984fa763ec93d5a}{%
+           family={Giuliani},
+           familyi={G\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c6fbf580be6bb3e6d5e6e5299fe03d69}{%
+           family={Mastropietro},
+           familyi={M\bibinitperiod},
+           given={Vieri},
+           giveni={V\bibinitperiod}}}%
+        {{hash=849c9e05a55571d8cc03cbfc81d55f58}{%
+           family={Porta},
+           familyi={P\bibinitperiod},
+           given={Marcello},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{4bbd5f28bb2479a950c555adc4e168f4}
+      \strng{fullhash}{9f2f994c548f19d81ab4ee3e973af94d}
+      \strng{bibnamehash}{9f2f994c548f19d81ab4ee3e973af94d}
+      \strng{authorbibnamehash}{9f2f994c548f19d81ab4ee3e973af94d}
+      \strng{authornamehash}{4bbd5f28bb2479a950c555adc4e168f4}
+      \strng{authorfullhash}{9f2f994c548f19d81ab4ee3e973af94d}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1572-9613}
+      \field{journaltitle}{Journal of Statistical Physics}
+      \field{month}{11}
+      \field{number}{1-6}
+      \field{title}{Quantization of the Interacting Hall Conductivity in the Critical Regime}
+      \field{volume}{180}
+      \field{year}{2019}
+      \field{pages}{332\bibrangedash 365}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1007/s10955-019-02405-1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s10955-019-02405-1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s10955-019-02405-1
+      \endverb
+    \endentry
+    \entry{Mastropietro_2024_Vanishing}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c6fbf580be6bb3e6d5e6e5299fe03d69}{%
+           family={Mastropietro},
+           familyi={M\bibinitperiod},
+           given={Vieri},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{fullhash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{bibnamehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{authorbibnamehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{authornamehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{authorfullhash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annales Henri Poincaré}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{Vanishing of the Anomaly in Lattice Chiral Gauge Theory}
+      \field{volume}{25}
+      \field{year}{2024}
+      \field{pages}{1047\bibrangedash 1081}
+      \range{pages}{35}
+    \endentry
+    \entry{Giuliani_Mastropietro_Porta_2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3a159de9b283f4a7b984fa763ec93d5a}{%
+           family={Giuliani},
+           familyi={G\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c6fbf580be6bb3e6d5e6e5299fe03d69}{%
+           family={Mastropietro},
+           familyi={M\bibinitperiod},
+           given={Vieri},
+           giveni={V\bibinitperiod}}}%
+        {{hash=849c9e05a55571d8cc03cbfc81d55f58}{%
+           family={Porta},
+           familyi={P\bibinitperiod},
+           given={Marcello},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4bbd5f28bb2479a950c555adc4e168f4}
+      \strng{fullhash}{9f2f994c548f19d81ab4ee3e973af94d}
+      \strng{bibnamehash}{9f2f994c548f19d81ab4ee3e973af94d}
+      \strng{authorbibnamehash}{9f2f994c548f19d81ab4ee3e973af94d}
+      \strng{authornamehash}{4bbd5f28bb2479a950c555adc4e168f4}
+      \strng{authorfullhash}{9f2f994c548f19d81ab4ee3e973af94d}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-0916}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{month}{02}
+      \field{number}{3}
+      \field{title}{Universality of the Hall Conductivity in Interacting Electron Systems}
+      \field{volume}{349}
+      \field{year}{2017}
+      \field{pages}{1107\bibrangedash 1161}
+      \range{pages}{55}
+      \verb{doi}
+      \verb 10.1007/s00220-016-2714-8
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00220-016-2714-8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00220-016-2714-8
+      \endverb
+    \endentry
+    \entry{Kaplan_2021}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=30aa875f910a9c5f61f88caf3ee6e3c5}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Andrew\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=b1e2618c47eef5f4ab05f5c11200c14f}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={David\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{101022d3bca1af6b0cfc8456b37b4700}
+      \strng{fullhash}{101022d3bca1af6b0cfc8456b37b4700}
+      \strng{bibnamehash}{101022d3bca1af6b0cfc8456b37b4700}
+      \strng{authorbibnamehash}{101022d3bca1af6b0cfc8456b37b4700}
+      \strng{authornamehash}{101022d3bca1af6b0cfc8456b37b4700}
+      \strng{authorfullhash}{101022d3bca1af6b0cfc8456b37b4700}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{Gravitational contributions to the electron $g$-factor}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2103.04509
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2103.04509
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2103.04509
+      \endverb
+    \endentry
+    \entry{Giuliani_Mastropietro_Rychkov_2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3a159de9b283f4a7b984fa763ec93d5a}{%
+           family={Giuliani},
+           familyi={G\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c6fbf580be6bb3e6d5e6e5299fe03d69}{%
+           family={Mastropietro},
+           familyi={M\bibinitperiod},
+           given={Vieri},
+           giveni={V\bibinitperiod}}}%
+        {{hash=5d7bd6d47a8bccf9abc7b1ad149ecebc}{%
+           family={Rychkov},
+           familyi={R\bibinitperiod},
+           given={Slava},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4bbd5f28bb2479a950c555adc4e168f4}
+      \strng{fullhash}{b3738c19013ea810614085da46ac1e68}
+      \strng{bibnamehash}{b3738c19013ea810614085da46ac1e68}
+      \strng{authorbibnamehash}{b3738c19013ea810614085da46ac1e68}
+      \strng{authornamehash}{4bbd5f28bb2479a950c555adc4e168f4}
+      \strng{authorfullhash}{b3738c19013ea810614085da46ac1e68}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{Gentle introduction to rigorous Renormalization Group: a worked fermionic example}
+      \field{volume}{2021}
+      \field{year}{2021}
+      \field{pages}{26}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/JHEP01(2021)026
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/JHEP01(2021)026
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/JHEP01(2021)026
+      \endverb
+    \endentry
+    \entry{Gallavotti_1995}{book}{}
+      \name{author}{2}{}{%
+        {{hash=d32579fd8d01aafa9e1f5997650cee4d}{%
+           family={Benfatto},
+           familyi={B\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=75124799c34222214895d54faf31aaba}{%
+           family={Gallavotti},
+           familyi={G\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{cccef635583d39e6390fb1054a588504}
+      \strng{fullhash}{cccef635583d39e6390fb1054a588504}
+      \strng{bibnamehash}{cccef635583d39e6390fb1054a588504}
+      \strng{authorbibnamehash}{cccef635583d39e6390fb1054a588504}
+      \strng{authornamehash}{cccef635583d39e6390fb1054a588504}
+      \strng{authorfullhash}{cccef635583d39e6390fb1054a588504}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780691044460}
+      \field{title}{Renormalization Group}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{volume}{1}
+      \field{year}{1995}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/j.ctv173dzrr
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/j.ctv173dzrr
+      \endverb
+    \endentry
+    \entry{Mastropietro_Nonpert_Renorm}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c6fbf580be6bb3e6d5e6e5299fe03d69}{%
+           family={Mastropietro},
+           familyi={M\bibinitperiod},
+           given={Vieri},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Scientific}%
+      }
+      \strng{namehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{fullhash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{bibnamehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{authorbibnamehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{authornamehash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \strng{authorfullhash}{c6fbf580be6bb3e6d5e6e5299fe03d69}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Non-Perturbative Re\-nor\-ma\-li\-za\-tion}
+      \field{year}{2008}
+      \verb{doi}
+      \verb 10.1142/6748
+      \endverb
+      \verb{urlraw}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/6748
+      \endverb
+      \verb{url}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/6748
+      \endverb
+    \endentry
+    \entry{Gentile_2001}{article}{}
+      \name{author}{2}{}{%
+        {{hash=39cdefe7ec73079925aca5ccea977ff6}{%
+           family={Gentile},
+           familyi={G\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c6fbf580be6bb3e6d5e6e5299fe03d69}{%
+           family={Mastropietro},
+           familyi={M\bibinitperiod},
+           given={Vieri},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{3743a96ffb9dcf78d00fe40d9be798cd}
+      \strng{fullhash}{3743a96ffb9dcf78d00fe40d9be798cd}
+      \strng{bibnamehash}{3743a96ffb9dcf78d00fe40d9be798cd}
+      \strng{authorbibnamehash}{3743a96ffb9dcf78d00fe40d9be798cd}
+      \strng{authornamehash}{3743a96ffb9dcf78d00fe40d9be798cd}
+      \strng{authorfullhash}{3743a96ffb9dcf78d00fe40d9be798cd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics Reports-review Section of Physics Letters}
+      \field{month}{10}
+      \field{title}{Renormalization group for one-dimensional fermions. A review on mathematical results}
+      \field{volume}{352}
+      \field{year}{2001}
+      \field{pages}{273\bibrangedash 437}
+      \range{pages}{165}
+      \verb{doi}
+      \verb 10.1016/S0370-1573(01)00041-2
+      \endverb
+    \endentry
+    \entry{Battle_1984}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f56a0a1fd9035926b34826c449c1107a}{%
+           family={Battle},
+           familyi={B\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=183549d779036215fc1af9a56bc85cca}{%
+           family={Federbush},
+           familyi={F\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bc53b4c820748d4a3bc103e63e71491}
+      \strng{fullhash}{1bc53b4c820748d4a3bc103e63e71491}
+      \strng{bibnamehash}{1bc53b4c820748d4a3bc103e63e71491}
+      \strng{authorbibnamehash}{1bc53b4c820748d4a3bc103e63e71491}
+      \strng{authornamehash}{1bc53b4c820748d4a3bc103e63e71491}
+      \strng{authorfullhash}{1bc53b4c820748d4a3bc103e63e71491}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Letters in Mathematical Physics}
+      \field{month}{01}
+      \field{title}{A note on cluster expansions, tree graph identities, extra 1/ N ! factors!!!}
+      \field{volume}{8}
+      \field{year}{1984}
+      \verb{doi}
+      \verb 10.1007/BF00420041
+      \endverb
+    \endentry
+    \entry{Gawedzki_1985}{article}{}
+      \name{author}{2}{}{%
+        {{hash=61587ee9249897b6ed11be8373f6adac}{%
+           family={Gawędzki},
+           familyi={G\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f34fa8d6833ca0a02ae6e0c3c4872281}{%
+           family={Kupiainen},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{36c6d778efaec86da15b7d1e44d768c5}
+      \strng{fullhash}{36c6d778efaec86da15b7d1e44d768c5}
+      \strng{bibnamehash}{36c6d778efaec86da15b7d1e44d768c5}
+      \strng{authorbibnamehash}{36c6d778efaec86da15b7d1e44d768c5}
+      \strng{authornamehash}{36c6d778efaec86da15b7d1e44d768c5}
+      \strng{authorfullhash}{36c6d778efaec86da15b7d1e44d768c5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-0916}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{month}{03}
+      \field{number}{1}
+      \field{title}{Gross-Neveu model through convergent perturbation expansions}
+      \field{volume}{102}
+      \field{year}{1985}
+      \field{pages}{1\bibrangedash 30}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1007/BF01208817
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF01208817
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF01208817
+      \endverb
+    \endentry
+    \entry{Lesniewski_1987}{article}{}
+      \name{author}{1}{}{%
+        {{hash=64af19fb23a3e53aed234d7c5680c867}{%
+           family={Lesniewski},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{64af19fb23a3e53aed234d7c5680c867}
+      \strng{fullhash}{64af19fb23a3e53aed234d7c5680c867}
+      \strng{bibnamehash}{64af19fb23a3e53aed234d7c5680c867}
+      \strng{authorbibnamehash}{64af19fb23a3e53aed234d7c5680c867}
+      \strng{authornamehash}{64af19fb23a3e53aed234d7c5680c867}
+      \strng{authorfullhash}{64af19fb23a3e53aed234d7c5680c867}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-0916}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{month}{09}
+      \field{number}{3}
+      \field{title}{Effective action for the Yukawa2 quantum field theory}
+      \field{volume}{108}
+      \field{year}{1987}
+      \field{pages}{437\bibrangedash 467}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1007/BF01212319
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF01212319
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF01212319
+      \endverb
+    \endentry
+    \entry{Giuliani_2005}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ebf8e2b0a9e0d5865b3d568b5a722e44}{%
+           family={Giuliani},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=627dacd836c4be56583e3abff3522e03}{%
+           family={Mastropietro},
+           familyi={M\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b5f1f43dacc8ce013b8423076b0b208}
+      \strng{fullhash}{5b5f1f43dacc8ce013b8423076b0b208}
+      \strng{bibnamehash}{5b5f1f43dacc8ce013b8423076b0b208}
+      \strng{authorbibnamehash}{5b5f1f43dacc8ce013b8423076b0b208}
+      \strng{authornamehash}{5b5f1f43dacc8ce013b8423076b0b208}
+      \strng{authorfullhash}{5b5f1f43dacc8ce013b8423076b0b208}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-0916}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{month}{06}
+      \field{number}{3}
+      \field{title}{Anomalous Universality in the Anisotropic Ashkin--Teller Model}
+      \field{volume}{256}
+      \field{year}{2005}
+      \field{pages}{681\bibrangedash 735}
+      \range{pages}{55}
+      \verb{doi}
+      \verb 10.1007/s00220-004-1224-2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00220-004-1224-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00220-004-1224-2
+      \endverb
+    \endentry
+    \entry{Giuliani_Mastropietro_2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3a159de9b283f4a7b984fa763ec93d5a}{%
+           family={Giuliani},
+           familyi={G\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c6fbf580be6bb3e6d5e6e5299fe03d69}{%
+           family={Mastropietro},
+           familyi={M\bibinitperiod},
+           given={Vieri},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{e437b8311dcef21d45cb981282096cbe}
+      \strng{fullhash}{e437b8311dcef21d45cb981282096cbe}
+      \strng{bibnamehash}{e437b8311dcef21d45cb981282096cbe}
+      \strng{authorbibnamehash}{e437b8311dcef21d45cb981282096cbe}
+      \strng{authornamehash}{e437b8311dcef21d45cb981282096cbe}
+      \strng{authorfullhash}{e437b8311dcef21d45cb981282096cbe}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-0916}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{month}{01}
+      \field{number}{2}
+      \field{title}{The Two-Dimensional Hubbard Model on the Honeycomb Lattice}
+      \field{volume}{293}
+      \field{year}{2010}
+      \field{pages}{301\bibrangedash 346}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1007/s00220-009-0910-5
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00220-009-0910-5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00220-009-0910-5
+      \endverb
+    \endentry
+    \entry{Schwartz_2013}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1e7b6dde56467cb787f369fadc91b2df}{%
+           family={Schwartz},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{1e7b6dde56467cb787f369fadc91b2df}
+      \strng{fullhash}{1e7b6dde56467cb787f369fadc91b2df}
+      \strng{bibnamehash}{1e7b6dde56467cb787f369fadc91b2df}
+      \strng{authorbibnamehash}{1e7b6dde56467cb787f369fadc91b2df}
+      \strng{authornamehash}{1e7b6dde56467cb787f369fadc91b2df}
+      \strng{authorfullhash}{1e7b6dde56467cb787f369fadc91b2df}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantum Field Theory and the Standard Model}
+      \field{year}{2013}
+    \endentry
+    \entry{Nowakowski_2005}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a61fdddb89d1af07298698f0ee69b6ba}{%
+           family={Nowakowski},
+           familyi={N\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4cf77acf13dcd7ca6e01e317d047019d}{%
+           family={Paschos},
+           familyi={P\bibinitperiod},
+           given={E\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=168b6ae8adc82a5c3a3b9a52f2d7ca7a}{%
+           family={Rodríguez},
+           familyi={R\bibinitperiod},
+           given={J\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd87a213a4fcdd73c84912236da0ecf0}
+      \strng{fullhash}{94e1f09fa6bd0b24e4edbd24a0204137}
+      \strng{bibnamehash}{94e1f09fa6bd0b24e4edbd24a0204137}
+      \strng{authorbibnamehash}{94e1f09fa6bd0b24e4edbd24a0204137}
+      \strng{authornamehash}{bd87a213a4fcdd73c84912236da0ecf0}
+      \strng{authorfullhash}{94e1f09fa6bd0b24e4edbd24a0204137}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1361-6404}
+      \field{journaltitle}{European Journal of Physics}
+      \field{month}{04}
+      \field{number}{4}
+      \field{title}{All electromagnetic form factors}
+      \field{volume}{26}
+      \field{year}{2005}
+      \field{pages}{545\bibrangedash 560}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1088/0143-0807/26/4/001
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/0143-0807/26/4/001
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/0143-0807/26/4/001
+      \endverb
+    \endentry
+    \entry{Weinberg_1995}{book}{}
+      \name{author}{1}{}{%
+        {{hash=15e144c72b0b9d10db00ddc6d37a19e6}{%
+           family={Weinberg},
+           familyi={W\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{15e144c72b0b9d10db00ddc6d37a19e6}
+      \strng{fullhash}{15e144c72b0b9d10db00ddc6d37a19e6}
+      \strng{bibnamehash}{15e144c72b0b9d10db00ddc6d37a19e6}
+      \strng{authorbibnamehash}{15e144c72b0b9d10db00ddc6d37a19e6}
+      \strng{authornamehash}{15e144c72b0b9d10db00ddc6d37a19e6}
+      \strng{authorfullhash}{15e144c72b0b9d10db00ddc6d37a19e6}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Quantum Theory of Fields}
+      \field{year}{1995}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
