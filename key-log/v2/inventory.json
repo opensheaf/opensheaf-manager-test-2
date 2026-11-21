@@ -1,0 +1,58 @@
+{
+  "digestAlgorithm": "sha512",
+  "head": "v2",
+  "id": "sheaf:3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq:3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
+  "manifest": {
+    "8fce8b1bb55c17ef9e26d184d0bd66e38491cdfaaf9e8d1fa07a83b0e8ba453c1122403bde145b04a60d72e0bfb986097ece965f41643456b81b954df896d7a6": [
+      "v1/content/genesis.json"
+    ],
+    "8d8950a20ccb442fdd5467d6e78f9c0f88d9c1a46122535baa36786f16c1d74ef77075fc8adbe3b365ebfea7efe31901e0219cbfe5a127be6c95323042e8010a": [
+      "v1/content/keys.json"
+    ],
+    "f9f751939749663677323065b8394d6a47d09400e941f77bcbeb878253789da02fd46d526cb301eeb90464e0bf4fc71590e4629fbe0d75222d2785afc77a4956": [
+      "v1/content/object.json"
+    ],
+    "1bddd139cacd9f38f1d2c388d6fbeba306a084c8603c55e08816cc67917feba506fd05ae2fc6df0b118edb48ad02f0b3533e33a741c9168fbce31c0f9428c018": [
+      "v2/content/keys.json"
+    ],
+    "c4a3bf777ce7d6048db70c3cb2b88066e377fe05122802abba960fdf77cfc53bf15bebd8fb4e14b18fabd7e8720a4a1332c0623462bca0c2904aa3c635f11e47": [
+      "v2/content/object.json"
+    ]
+  },
+  "type": "https://ocfl.io/1.1/spec/#inventory",
+  "versions": {
+    "v1": {
+      "created": "2026-11-21T17:19:28Z",
+      "state": {
+        "8fce8b1bb55c17ef9e26d184d0bd66e38491cdfaaf9e8d1fa07a83b0e8ba453c1122403bde145b04a60d72e0bfb986097ece965f41643456b81b954df896d7a6": [
+          "genesis.json"
+        ],
+        "8d8950a20ccb442fdd5467d6e78f9c0f88d9c1a46122535baa36786f16c1d74ef77075fc8adbe3b365ebfea7efe31901e0219cbfe5a127be6c95323042e8010a": [
+          "keys.json"
+        ],
+        "f9f751939749663677323065b8394d6a47d09400e941f77bcbeb878253789da02fd46d526cb301eeb90464e0bf4fc71590e4629fbe0d75222d2785afc77a4956": [
+          "object.json"
+        ]
+      }
+    },
+    "v2": {
+      "created": "2026-11-21T17:20:02Z",
+      "state": {
+        "8fce8b1bb55c17ef9e26d184d0bd66e38491cdfaaf9e8d1fa07a83b0e8ba453c1122403bde145b04a60d72e0bfb986097ece965f41643456b81b954df896d7a6": [
+          "genesis.json"
+        ],
+        "1bddd139cacd9f38f1d2c388d6fbeba306a084c8603c55e08816cc67917feba506fd05ae2fc6df0b118edb48ad02f0b3533e33a741c9168fbce31c0f9428c018": [
+          "keys.json"
+        ],
+        "c4a3bf777ce7d6048db70c3cb2b88066e377fe05122802abba960fdf77cfc53bf15bebd8fb4e14b18fabd7e8720a4a1332c0623462bca0c2904aa3c635f11e47": [
+          "object.json"
+        ]
+      },
+      "message": "Keys changed",
+      "user": {
+        "name": "Manager Test",
+        "address": "https://opensheaf.org/opensheaf-manager-test-2/"
+      }
+    }
+  }
+}
