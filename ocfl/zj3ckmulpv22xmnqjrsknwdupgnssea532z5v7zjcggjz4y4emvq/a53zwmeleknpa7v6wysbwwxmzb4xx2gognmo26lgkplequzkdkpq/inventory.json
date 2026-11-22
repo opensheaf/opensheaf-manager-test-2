@@ -13,6 +13,15 @@
       ],
       "d03e411a78144ce87fc6b24feb7bf619": [
         "v1/content/object.json"
+      ],
+      "6a84c01dd27fc499024eadccce74368f": [
+        "v2/content/datacite.json"
+      ],
+      "2a024ec21502d96c70862b7480572c03": [
+        "v2/content/members.json"
+      ],
+      "212c691ad0b47817573c38e81ce8004e": [
+        "v2/content/object.json"
       ]
     },
     "sha256": {
@@ -27,10 +36,19 @@
       ],
       "930784280bf8ee038afa4b7e2c036be2df58ad556a6da834d391ee276cb6458a": [
         "v1/content/object.json"
+      ],
+      "cd3e0fde923a8b336c898d45396c44404702b76068ca24151814a7fa3d95ed86": [
+        "v2/content/datacite.json"
+      ],
+      "ee4632c94efff422158786c8df34d9a1a852158dbda9788e6224f26a0be4ba04": [
+        "v2/content/members.json"
+      ],
+      "ed0c14764b9b91917e259ef7342944756f49154991423f70dc43c3ddc9edba0d": [
+        "v2/content/object.json"
       ]
     }
   },
-  "head": "v1",
+  "head": "v2",
   "id": "sheaf:a53zwmeleknpa7v6wysbwwxmzb4xx2gognmo26lgkplequzkdkpq:zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
   "manifest": {
     "a636335229580a7dccbce7756e1c282dfcb099d8dc3680163bc2bb524d9f26c00e674148cc50472eb708bf4491ebb185f67367aaec40ad7e566218b089e2680b": [
@@ -44,6 +62,15 @@
     ],
     "328f0496247a5fabfc166702ed08dcfcbd9fc0ee40d580396716f7796a7cfe15c98b09eae0052d8ac01092e3d84715a952efc0062df4f99bd08db849f74da50f": [
       "v1/content/object.json"
+    ],
+    "58107654c26fd1251dd5344024ae79b6bd9c2e0643dc0a07bf8d92b9183f1c7cc3bd3b4832608030a2f874c78be83db976cfbeedd0157bfd1d7acc8476b1c264": [
+      "v2/content/datacite.json"
+    ],
+    "1318e20c51ce2943d3bcab99d1eb4e0fa193c76469480dac1325af0027b34019d88735773205828ba9fa3b111e898241eeae8590c372385af9175a9ec0742ed1": [
+      "v2/content/members.json"
+    ],
+    "3ca741d10ac919e146b94dd9f8842ce6737ce9a510db2b1b6d0989425753a5ae43885d1aa1a54f7d2c828237a07951b11aa16a87b49cf9e4deab41057e361cfc": [
+      "v2/content/object.json"
     ]
   },
   "type": "https://ocfl.io/1.1/spec/#inventory",
@@ -65,6 +92,28 @@
         ]
       },
       "message": "Collection version 1: 1 documents",
+      "user": {
+        "name": "Manager Test",
+        "address": "https://opensheaf.org/opensheaf-manager-test-2/"
+      }
+    },
+    "v2": {
+      "created": "2026-11-22T10:35:54Z",
+      "state": {
+        "58107654c26fd1251dd5344024ae79b6bd9c2e0643dc0a07bf8d92b9183f1c7cc3bd3b4832608030a2f874c78be83db976cfbeedd0157bfd1d7acc8476b1c264": [
+          "datacite.json"
+        ],
+        "9970a1aca9d3a813e7e7c705840e5941671e4d824cd7c988fe4153f53fa76078c8379e3440b0198406d48ae7b18c179d16be1f77db26aad2584068a9295533d8": [
+          "genesis.json"
+        ],
+        "1318e20c51ce2943d3bcab99d1eb4e0fa193c76469480dac1325af0027b34019d88735773205828ba9fa3b111e898241eeae8590c372385af9175a9ec0742ed1": [
+          "members.json"
+        ],
+        "3ca741d10ac919e146b94dd9f8842ce6737ce9a510db2b1b6d0989425753a5ae43885d1aa1a54f7d2c828237a07951b11aa16a87b49cf9e4deab41057e361cfc": [
+          "object.json"
+        ]
+      },
+      "message": "Collection version 2: 1 documents",
       "user": {
         "name": "Manager Test",
         "address": "https://opensheaf.org/opensheaf-manager-test-2/"

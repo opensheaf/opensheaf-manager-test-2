@@ -529,6 +529,18 @@
       ],
       "9ab90d6779c60241ea6f90cbd349bc9d": [
         "v3/content/paper.pdf"
+      ],
+      "0b905fddf6e68779f1d7ef8df34bff86": [
+        "v4/content/datacite.json"
+      ],
+      "63a6020bc906b9b2741557ffb389448e": [
+        "v4/content/object.json"
+      ],
+      "c9adc7c9f104ba3c54d11412957f5af3": [
+        "v4/content/paper.pdf"
+      ],
+      "99095ba4e249d51387d515bb7f175637": [
+        "v4/content/paper.tex"
       ]
     },
     "sha256": {
@@ -1059,10 +1071,22 @@
       ],
       "960e375bc9aafdb4c49c84a9b0993cfea364eccefb027d0aea0e4bd7864c7622": [
         "v3/content/paper.pdf"
+      ],
+      "79bd37280d45b52224c6eb073fb46fc78e6a5e9302358c0943820a9685b90097": [
+        "v4/content/datacite.json"
+      ],
+      "db2bcc67d5e7f97ecb3e32ca5f272cebd8ba6be5e1838168e770c9161ab35096": [
+        "v4/content/object.json"
+      ],
+      "8bbcb07250c7ca45100c3506cd975358f5e449dc9c54f042935ac823d71f0a46": [
+        "v4/content/paper.pdf"
+      ],
+      "09a531d2d430b4d01f82d3d15bcc168b5f50d50b1d82df0a41d748513c411c26": [
+        "v4/content/paper.tex"
       ]
     }
   },
-  "head": "v3",
+  "head": "v4",
   "id": "sheaf:nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq:zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
   "manifest": {
     "f0113dc0704ed52b9ca9dceb714ebc41bcf434164e73fbeb708ca12b802b8c965af0d2f53549e178ed71bc138c2694b6344bfe92974ccfee5eb99df29dfe6d31": [
@@ -1592,6 +1616,18 @@
     ],
     "5ca494f14a20a93b718f5fc615bcb600c19d6ac1683c22f75da07545a9b0df7702739303e0dcc9e89204a592d115ce59486c38c3aa2d4b2d2e807949df1f1a04": [
       "v3/content/paper.pdf"
+    ],
+    "bcacd75c00ec40cd989e4889cbf034a860fddfcf873dd3372e56a35f137c87ba786f5107ff7ad8ec9665a97f582cfa76e8df45a6dfbe2b0ae65a27f05331899b": [
+      "v4/content/datacite.json"
+    ],
+    "494f031920f7ce49b15092d13041ae6d8e3f214717ef788617f179730ccc4861af9d2c30b4ae537d35d32fcead3b32d44a62ea8bc54660dd3748faf83d66e368": [
+      "v4/content/object.json"
+    ],
+    "f046ebe9d37c5bb9bd9a58dd3a5005635a15a9947cb94ff11831cc6d64158c0d6d3d70e95f89612e76647748e8ca4103635ea7baa506d3310b846b5924c2997b": [
+      "v4/content/paper.pdf"
+    ],
+    "b2dfa11f9fcd9cfaa5e31ed14fc6d261843ac9ea191a31fd2d2cd29e9cf077cf4e85a89cf7730084502c31cc6cd75ab985107a4b3f56c6a8d1eb482eaaff2749": [
+      "v4/content/paper.tex"
     ]
   },
   "type": "https://ocfl.io/1.1/spec/#inventory",
@@ -2184,6 +2220,40 @@
           "paper.pdf"
         ],
         "122903102daec50a543e86351ba6afb1de2e61cb802817dfb64c2bf46468afc4da1f60d6383b75fc21b62e6cb24066f9730634d6a04e5baa151e15c283ab6a07": [
+          "paper.tex"
+        ],
+        "8abf7f9f914f571dfe7a92e9f0b10b0673a608c3c53ef5df23b15602899301b941698ce892d9835a0d62fb3758e317ee00cf5a3c123804fdf1a61a928a41eefc": [
+          "parent/inventory.json"
+        ],
+        "9d5a0d128e922adb5d8b068490293598399c27b2fb56c49289ff6a90bda82ae579a4dad855c40938a55bc894021f1cf2eddc27625bebe2e097f2726b7a202278": [
+          "parent/object.json"
+        ],
+        "4301b971875b6348b24c64d1b8a28e602dab7e80b5b53bd6bb8f4a4bebf0573e55cba537253233d1188adfe30d017b31e7dbb2cd478d5606daef1aecc0f8140d": [
+          "parent/signatures/signature-efcqswfcm2obiznb.json"
+        ]
+      },
+      "message": "Deposit from the OpenSheaf manager",
+      "user": {
+        "name": "Manager Test",
+        "address": "https://opensheaf.org/opensheaf-manager-test-2/"
+      }
+    },
+    "v4": {
+      "created": "2026-11-22T10:35:54Z",
+      "state": {
+        "bcacd75c00ec40cd989e4889cbf034a860fddfcf873dd3372e56a35f137c87ba786f5107ff7ad8ec9665a97f582cfa76e8df45a6dfbe2b0ae65a27f05331899b": [
+          "datacite.json"
+        ],
+        "677707d2ee1e5f6a7699c3c8436802a93f0ef5309f76ecc111b6448ecfbf1d0b952a702a3f5c442ae65c6535d82f1242d3049cfdf14522e2ce8650a6be8780cd": [
+          "genesis.json"
+        ],
+        "494f031920f7ce49b15092d13041ae6d8e3f214717ef788617f179730ccc4861af9d2c30b4ae537d35d32fcead3b32d44a62ea8bc54660dd3748faf83d66e368": [
+          "object.json"
+        ],
+        "f046ebe9d37c5bb9bd9a58dd3a5005635a15a9947cb94ff11831cc6d64158c0d6d3d70e95f89612e76647748e8ca4103635ea7baa506d3310b846b5924c2997b": [
+          "paper.pdf"
+        ],
+        "b2dfa11f9fcd9cfaa5e31ed14fc6d261843ac9ea191a31fd2d2cd29e9cf077cf4e85a89cf7730084502c31cc6cd75ab985107a4b3f56c6a8d1eb482eaaff2749": [
           "paper.tex"
         ],
         "8abf7f9f914f571dfe7a92e9f0b10b0673a608c3c53ef5df23b15602899301b941698ce892d9835a0d62fb3758e317ee00cf5a3c123804fdf1a61a928a41eefc": [

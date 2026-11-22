@@ -39,8 +39,8 @@
       "kind": "collection",
       "name": "a53zwmeleknpa7v6wysbwwxmzb4xx2gognmo26lgkplequzkdkpq",
       "owner": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
-      "head": "v1",
-      "inventorySha512": "24741d78b8428eaaf9644d564e2164e539406b8d61f86783e883eb62c9831c8d2b74962e5f396d5727504c1c049546266f0fe3d2493d46e1cb6e296e648d351d",
+      "head": "v2",
+      "inventorySha512": "5b620b28764f50b931313c12c74b0359d75930e62515765eaf45b16e65bac8a64060000b6990e5c57be85ddf81747fe6b950c49a4fdcb1c298bd32c6672fe83f",
       "status": "active"
     },
     {
@@ -58,8 +58,8 @@
       "kind": "document",
       "name": "nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq",
       "owner": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
-      "head": "v3",
-      "inventorySha512": "7cdf28a8600d6124b25777e34e46e2c6217056f80d3a78e10e2c8ccccc4b490fe1d822a9a935aeb6b63fc7fc6f78cf018ca017809cb79e5cfe12f64f308be355",
+      "head": "v4",
+      "inventorySha512": "5d9d942f306f17e2b783930d62a7890606792a91d81d8d5654ab446a7d3c64ae80c888ef8bded18bb42a33cfdc0f5c3d10733feb0db02da910e67b94245e7b66",
       "status": "active",
       "label": "qed-g-2-member-b"
     },
