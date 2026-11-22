@@ -40,6 +40,12 @@
       ],
       "a8cafa232535d9b3b645ee3bc647328e": [
         "v4/content/object.json"
+      ],
+      "7799b50ef125176257cdcaf898e016dd": [
+        "v5/content/datacite.json"
+      ],
+      "d67acf31cfd092f5bbc842bccfe075ed": [
+        "v5/content/object.json"
       ]
     },
     "sha256": {
@@ -81,10 +87,16 @@
       ],
       "f9385b9e891915691d73f9044979d98dddfcc06b7e9ace2d5123af098016589e": [
         "v4/content/object.json"
+      ],
+      "b0b3f895661218581621a9cdc62a8f772b101bdcc25b5aee2f1d96a35af0ff4a": [
+        "v5/content/datacite.json"
+      ],
+      "c5a8f70f7e792d0c9203c31b103c0f6877111e4060ddc4d8fdf12fc68d2d9d91": [
+        "v5/content/object.json"
       ]
     }
   },
-  "head": "v4",
+  "head": "v5",
   "id": "sheaf:pz3li2jjanfywqym7pptflc4pi5v56qzapqxuzap5ftgth4zhdja:3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
   "manifest": {
     "32dcd443a16e08824beb95e964ead30f61d6326ee65602a146c459f6931f30ffe7a464e7a134560709415e83f9fa7b01ddda4bacc7a2767d164045073ef515b5": [
@@ -125,6 +137,12 @@
     ],
     "64c515b5c1e63f73513f674afa6e8cfb3e4d2b6c2b3993289373308ab196fece9279a74d27ad56a3fb5ffc50ea7fe2c9a013429cd63fe1ccd64be670744a0ef9": [
       "v4/content/object.json"
+    ],
+    "59341d6172f0df8b4e352cf32132fd9b308831d729e3cfff75e75c1525008a1503f20942e0986bf59b596f629585bdaf505c87fda300c5058c7cae3601acac46": [
+      "v5/content/datacite.json"
+    ],
+    "4243b6978599df705c011dff3cdd9f070ec04d7934a358d7f3a1270d699ca59f0293a6760209f223e2167d3805332f0315f83c2f3a4a12c41317654e2f07efaa": [
+      "v5/content/object.json"
     ]
   },
   "type": "https://ocfl.io/1.1/spec/#inventory",
@@ -212,6 +230,28 @@
         ]
       },
       "message": "Collection version 4: 2 documents",
+      "user": {
+        "name": "Manager Test",
+        "address": "https://opensheaf.org/opensheaf-manager-test-2/"
+      }
+    },
+    "v5": {
+      "created": "2026-11-22T10:35:12Z",
+      "state": {
+        "59341d6172f0df8b4e352cf32132fd9b308831d729e3cfff75e75c1525008a1503f20942e0986bf59b596f629585bdaf505c87fda300c5058c7cae3601acac46": [
+          "datacite.json"
+        ],
+        "b0dd6a23fd81345ec40c55d90a1a6bb94d518110178ca2b30acf7868238fad8757384ff2bb7ccb3e17912f3c465dbfde9e145850579a93e50e8de0e4109d652c": [
+          "genesis.json"
+        ],
+        "ebc18ea8034518887eeccf0ed5f6092304897fc8b2b7dd45a73e17f25921bc9d27d6ed48fc0454c0bb2fdefa861adaad43afe866cd4ddb7f601b22cb266389e9": [
+          "members.json"
+        ],
+        "4243b6978599df705c011dff3cdd9f070ec04d7934a358d7f3a1270d699ca59f0293a6760209f223e2167d3805332f0315f83c2f3a4a12c41317654e2f07efaa": [
+          "object.json"
+        ]
+      },
+      "message": "Collection version 5: 1 documents",
       "user": {
         "name": "Manager Test",
         "address": "https://opensheaf.org/opensheaf-manager-test-2/"

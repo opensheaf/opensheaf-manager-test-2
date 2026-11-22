@@ -7,7 +7,6 @@
     "website"
   ],
   "storageLayout": "opensheaf-owner-name-storage-layout",
-  "mainCollection": "main",
   "curator": {
     "name": "Test, Manager",
     "givenName": "Manager",

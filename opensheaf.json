@@ -5,14 +5,19 @@
   "contact": "https://opensheaf.org/opensheaf-manager-test-2/",
   "storageRoot": "ocfl/",
   "storageLayout": "opensheaf-owner-name-storage-layout",
-  "mainCollection": "sheaf:pz3li2jjanfywqym7pptflc4pi5v56qzapqxuzap5ftgth4zhdja:3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
   "profiles": [
     "website"
   ],
   "extensions": [],
   "owners": [
-    "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
-    "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq"
+    {
+      "owner": "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
+      "catalogue": "sheaf:pz3li2jjanfywqym7pptflc4pi5v56qzapqxuzap5ftgth4zhdja:3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq"
+    },
+    {
+      "owner": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
+      "catalogue": "sheaf:a53zwmeleknpa7v6wysbwwxmzb4xx2gognmo26lgkplequzkdkpq:zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq"
+    }
   ],
   "indexes": {
     "names": 2,
@@ -27,6 +32,15 @@
       "owner": "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
       "head": "v3",
       "inventorySha512": "4a2d8852871d26f30347ba98a486a9cf8520cd008a8e172fb32e63402697b748bad52f452809dd3e4a046d5beda4ab31fae7ba03e8b6032ace4ab93078f0a60d",
+      "status": "active"
+    },
+    {
+      "id": "sheaf:a53zwmeleknpa7v6wysbwwxmzb4xx2gognmo26lgkplequzkdkpq:zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
+      "kind": "collection",
+      "name": "a53zwmeleknpa7v6wysbwwxmzb4xx2gognmo26lgkplequzkdkpq",
+      "owner": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
+      "head": "v1",
+      "inventorySha512": "24741d78b8428eaaf9644d564e2164e539406b8d61f86783e883eb62c9831c8d2b74962e5f396d5727504c1c049546266f0fe3d2493d46e1cb6e296e648d351d",
       "status": "active"
     },
     {
@@ -54,8 +68,8 @@
       "kind": "collection",
       "name": "pz3li2jjanfywqym7pptflc4pi5v56qzapqxuzap5ftgth4zhdja",
       "owner": "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
-      "head": "v4",
-      "inventorySha512": "71af098374413910322859409ad4f44a64b060d2b7502edb2b869f2d55bbd320268ebc80dbcd0a3abce407b4ff18df2e110907d1d28fb778ff096d0464e2e6ee",
+      "head": "v5",
+      "inventorySha512": "a252d782f4290febb8a4084bcb9d8fc6769465889b8ada2cd48450774e6227f56bb5dde114fad78f6ab2e08b677694b2d27b0816d3a9e902f2da9af1176c6890",
       "status": "active",
       "label": "main"
     },

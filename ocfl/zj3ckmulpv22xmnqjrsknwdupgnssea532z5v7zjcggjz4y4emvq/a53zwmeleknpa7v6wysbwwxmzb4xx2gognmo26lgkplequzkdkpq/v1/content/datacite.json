@@ -1,0 +1,48 @@
+{
+  "titles": [
+    {
+      "title": "OpenSheaf manager test 2 (throwaway), member-b"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Test, Manager",
+      "nameType": "Personal",
+      "familyName": "Test",
+      "givenName": "Manager"
+    }
+  ],
+  "publisher": {
+    "name": "OpenSheaf manager test 2 (throwaway)"
+  },
+  "publicationYear": 2026,
+  "types": {
+    "resourceTypeGeneral": "Collection"
+  },
+  "version": "1",
+  "url": "https://opensheaf.org/opensheaf-manager-test-2/",
+  "dates": [
+    {
+      "date": "2026-11-22",
+      "dateType": "Issued"
+    },
+    {
+      "date": "2026-11-22",
+      "dateType": "Available"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "The documents of one owner deposited in this archive, newest first.",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "rightsList": [
+    {
+      "rights": "Creative Commons Zero v1.0 Universal",
+      "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rightsIdentifier": "cc0-1.0",
+      "rightsIdentifierScheme": "SPDX"
+    }
+  ]
+}

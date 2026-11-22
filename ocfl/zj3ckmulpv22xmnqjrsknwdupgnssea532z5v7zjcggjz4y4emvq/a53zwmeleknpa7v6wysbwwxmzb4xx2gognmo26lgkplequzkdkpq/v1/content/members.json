@@ -1,0 +1,27 @@
+{
+  "format": "opensheaf-collection/0.2",
+  "type": "catalogue",
+  "order": "issued-desc",
+  "members": [
+    {
+      "kind": "document",
+      "name": "nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq",
+      "owner": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
+      "at": [
+        "https://opensheaf.org/opensheaf-manager-test-2/"
+      ],
+      "version": "v3",
+      "inventorySha512": "7cdf28a8600d6124b25777e34e46e2c6217056f80d3a78e10e2c8ccccc4b490fe1d822a9a935aeb6b63fc7fc6f78cf018ca017809cb79e5cfe12f64f308be355",
+      "follow": "latest",
+      "cite": {
+        "title": "The g-2 in the neutral Electroweak model with cutoff: convergent expansion, RG and the Jackiw-Weinberg formula",
+        "creators": [
+          "Vieri Mastropietro",
+          "Michele Bianchessi"
+        ],
+        "year": 2025,
+        "issued": "2025-10-02"
+      }
+    }
+  ]
+}
