@@ -1,0 +1,310 @@
+{
+  "digestAlgorithm": "sha512",
+  "fixity": {
+    "md5": {
+      "ec75728b0ef4662d189513c1412dbe5c": [
+        "v1/content/datacite.json"
+      ],
+      "a82047badf987ec438eb9042a52e580a": [
+        "v1/content/genesis.json"
+      ],
+      "ce78e73b480c238e823c466a96e24a3a": [
+        "v1/content/members.json"
+      ],
+      "ece2c2eead103ad4e6ebf4657b1ec5f3": [
+        "v1/content/object.json"
+      ],
+      "af780c0e189f03d0b49f83183e4033fa": [
+        "v2/content/datacite.json"
+      ],
+      "8e920882eaaea98f24503f5c7603b84f": [
+        "v2/content/members.json"
+      ],
+      "0666f7866e83c45fe2aac4e060b89782": [
+        "v2/content/object.json"
+      ],
+      "33a05ca1caf8657d8f5a58007f18a83c": [
+        "v3/content/datacite.json"
+      ],
+      "ec2deb7b69740b1e3c66d02c89efd369": [
+        "v3/content/members.json"
+      ],
+      "37dba439d6f43c75d7610748f754b375": [
+        "v3/content/object.json"
+      ],
+      "8728b53d2ba0707d1439ee2f13faae21": [
+        "v4/content/datacite.json"
+      ],
+      "a54aaa7083802fbc84ce04a8699100c6": [
+        "v4/content/members.json"
+      ],
+      "a8cafa232535d9b3b645ee3bc647328e": [
+        "v4/content/object.json"
+      ],
+      "7799b50ef125176257cdcaf898e016dd": [
+        "v5/content/datacite.json"
+      ],
+      "d67acf31cfd092f5bbc842bccfe075ed": [
+        "v5/content/object.json"
+      ],
+      "663fc8003e403edf8453ef2a068e9855": [
+        "v6/content/datacite.json"
+      ],
+      "b1d6d9dd8e2e60687c391588a80f81db": [
+        "v6/content/members.json"
+      ],
+      "3314c76b86f25cf544bf6113900b813d": [
+        "v6/content/object.json"
+      ]
+    },
+    "sha256": {
+      "f1809db0affb26912d4dcc782874761b4da29f173d440999877bfc2c24a70be9": [
+        "v1/content/datacite.json"
+      ],
+      "781fd5b8dc9391fa3ddda1a5d0122971f5405ab15730c84f3543bbf10722c5d9": [
+        "v1/content/genesis.json"
+      ],
+      "13ec1f486257a2cfbb71ae7e46abbe0791e6c4145505ae9116a8220a5e0ad9d8": [
+        "v1/content/members.json"
+      ],
+      "443f13ffe7919ba90ba3d186b5f744fa5f1b14afdf09f0847702e32c78eab0a2": [
+        "v1/content/object.json"
+      ],
+      "f8a90c0fe05b2b1d3d511c3ceb1293e550100a5cd04beee6e82b7ddcc5db21ee": [
+        "v2/content/datacite.json"
+      ],
+      "049b9a62a59a0829e5250cf25214869a21596ef6c1fb762247ae1a9a4ee8a166": [
+        "v2/content/members.json"
+      ],
+      "22c7b498b4a56a6e2f664d6bc23ad9755dd8ac666d49cd804b48f4cfacedefa3": [
+        "v2/content/object.json"
+      ],
+      "0823cae7223a58db7cff88dc2e731ba66fa1571d458135bc9c016326e122015a": [
+        "v3/content/datacite.json"
+      ],
+      "62f2d770d2fc616c358e64d04b9650244b4ac4a5a454250770cb5fc198f2049d": [
+        "v3/content/members.json"
+      ],
+      "5abd39ddae7524ec865d39828db817333b7c6498f5993a9d28070e557695f2e3": [
+        "v3/content/object.json"
+      ],
+      "3b50cd47850aa6103ee322ca6c7ce4a5fa457d32eccb31bac3cd51c15b1626a6": [
+        "v4/content/datacite.json"
+      ],
+      "5da1f8ffb03ef6f5c0fe6ef0e22f529f7471541962db71509f456de9198c700e": [
+        "v4/content/members.json"
+      ],
+      "f9385b9e891915691d73f9044979d98dddfcc06b7e9ace2d5123af098016589e": [
+        "v4/content/object.json"
+      ],
+      "b0b3f895661218581621a9cdc62a8f772b101bdcc25b5aee2f1d96a35af0ff4a": [
+        "v5/content/datacite.json"
+      ],
+      "c5a8f70f7e792d0c9203c31b103c0f6877111e4060ddc4d8fdf12fc68d2d9d91": [
+        "v5/content/object.json"
+      ],
+      "b958ad0dfbaebe4281601fc7903da06d175b437bd4ea7229074b712164ae729b": [
+        "v6/content/datacite.json"
+      ],
+      "a722fddfd321243dd24ab5ff9e0dbd2ce7b7e798498b608f8d3b2209663929d6": [
+        "v6/content/members.json"
+      ],
+      "a84de421b66e77642a21d9993dbbf290991b3317bbed0d16f71c687608422d9e": [
+        "v6/content/object.json"
+      ]
+    }
+  },
+  "head": "v6",
+  "id": "sheaf:pz3li2jjanfywqym7pptflc4pi5v56qzapqxuzap5ftgth4zhdja:3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
+  "manifest": {
+    "32dcd443a16e08824beb95e964ead30f61d6326ee65602a146c459f6931f30ffe7a464e7a134560709415e83f9fa7b01ddda4bacc7a2767d164045073ef515b5": [
+      "v1/content/datacite.json"
+    ],
+    "b0dd6a23fd81345ec40c55d90a1a6bb94d518110178ca2b30acf7868238fad8757384ff2bb7ccb3e17912f3c465dbfde9e145850579a93e50e8de0e4109d652c": [
+      "v1/content/genesis.json"
+    ],
+    "c84b47b4bcab285af5fdc04d3a10cdecc04e579ca8a47c154800cf28f165865bd37e6b057639d32013283492320c2c553b6f5c1034c13ed81ab3ecd07f154dc9": [
+      "v1/content/members.json"
+    ],
+    "93f1b86b6be1bef135f2bdb7950eabd18b84a470d6e87a11c9f99c5f1c8659e5e2f6c146c791e22ff4b48a642748a829b7c00bbf2130980bfdc29cbb966a5bd2": [
+      "v1/content/object.json"
+    ],
+    "5772c392711431ace5fa3c4174e6648bc9372f292fafe55542d0f6545f70a20d3710826a4d859c913a88f479223a91edc6d883d99c0fb64de87e66cb42f5acd7": [
+      "v2/content/datacite.json"
+    ],
+    "ebc18ea8034518887eeccf0ed5f6092304897fc8b2b7dd45a73e17f25921bc9d27d6ed48fc0454c0bb2fdefa861adaad43afe866cd4ddb7f601b22cb266389e9": [
+      "v2/content/members.json"
+    ],
+    "8a049f91753b6932dfc4e68982bbb6111b26152a80cb58ff97b456f381fb9bc5ee811896c300e73781b3702e8d88c2bcf749c0934b595d767cc39247f865c67f": [
+      "v2/content/object.json"
+    ],
+    "9fd6d20b059a5f19384668d0ab56d6eb2c1cf8f4243fb8852414113fafd53fa7f5094b7bca103eb62bdb8eaa80c86ee69e4fb8c606f17506e9c4fe9762df73cd": [
+      "v3/content/datacite.json"
+    ],
+    "d5487e354455e9afe25e2a2bf2a1c2c10f8a01a4f29180d276692440fbfe6a37699080acbeceaa8f70f67f12c591e47ba4d1fa37162c609940102076e641bbdd": [
+      "v3/content/members.json"
+    ],
+    "9c3d81e30cd95173a2e6b5367336601b20fa44af2b045125fac9316be5a4a39b54d8886a8583f7e4b81bb2a2329427509771140cccddb8cea45d2f6f6eb5c9ce": [
+      "v3/content/object.json"
+    ],
+    "4f02cdbd7c3d4b1daf2b625a703e4e36ebaa98af50a5347296a8ac0653b0b0f4206ff878b86730f7b682b93b020bbdf998654234733baec6eff331de5684ef16": [
+      "v4/content/datacite.json"
+    ],
+    "3632324ccd30146f8751fe58214a09520cfd8e314821521657913ef51b34b06383e78b65840d10c400c5df57d367ac09fc1b1416cc3e176c777a6727a4599ae9": [
+      "v4/content/members.json"
+    ],
+    "64c515b5c1e63f73513f674afa6e8cfb3e4d2b6c2b3993289373308ab196fece9279a74d27ad56a3fb5ffc50ea7fe2c9a013429cd63fe1ccd64be670744a0ef9": [
+      "v4/content/object.json"
+    ],
+    "59341d6172f0df8b4e352cf32132fd9b308831d729e3cfff75e75c1525008a1503f20942e0986bf59b596f629585bdaf505c87fda300c5058c7cae3601acac46": [
+      "v5/content/datacite.json"
+    ],
+    "4243b6978599df705c011dff3cdd9f070ec04d7934a358d7f3a1270d699ca59f0293a6760209f223e2167d3805332f0315f83c2f3a4a12c41317654e2f07efaa": [
+      "v5/content/object.json"
+    ],
+    "bace6d607ee5c89c8ab4ea68ba376e0fa2cbca8686d920a0f9c9c89bb542093b9860bb5ee1f8a3b23cf0fe7f27e086925e8be87a8b4b4a9d61d7146296d93f17": [
+      "v6/content/datacite.json"
+    ],
+    "36003e3fd195dd51d4fd98f422dbf8049f54c16b46c8644feecf21e9f7ac29670950bcf82328365e7dfa6ebb94331fccf98e9b838fc240a4e552058b308b1a11": [
+      "v6/content/members.json"
+    ],
+    "2e5913e58e63c979335bec38903fa8e969cb9a21855e01982ef5953ba9a23c3d57b7dd1936bdbe03bc089b2f73d9ad95e7dd6d6da3e93e60021fe1036e8c1f79": [
+      "v6/content/object.json"
+    ]
+  },
+  "type": "https://ocfl.io/1.1/spec/#inventory",
+  "versions": {
+    "v1": {
+      "created": "2026-11-21T17:20:58Z",
+      "state": {
+        "32dcd443a16e08824beb95e964ead30f61d6326ee65602a146c459f6931f30ffe7a464e7a134560709415e83f9fa7b01ddda4bacc7a2767d164045073ef515b5": [
+          "datacite.json"
+        ],
+        "b0dd6a23fd81345ec40c55d90a1a6bb94d518110178ca2b30acf7868238fad8757384ff2bb7ccb3e17912f3c465dbfde9e145850579a93e50e8de0e4109d652c": [
+          "genesis.json"
+        ],
+        "c84b47b4bcab285af5fdc04d3a10cdecc04e579ca8a47c154800cf28f165865bd37e6b057639d32013283492320c2c553b6f5c1034c13ed81ab3ecd07f154dc9": [
+          "members.json"
+        ],
+        "93f1b86b6be1bef135f2bdb7950eabd18b84a470d6e87a11c9f99c5f1c8659e5e2f6c146c791e22ff4b48a642748a829b7c00bbf2130980bfdc29cbb966a5bd2": [
+          "object.json"
+        ]
+      },
+      "message": "Collection version 1: 0 documents",
+      "user": {
+        "name": "Manager Test",
+        "address": "https://opensheaf.org/opensheaf-manager-test-2/"
+      }
+    },
+    "v2": {
+      "created": "2026-11-21T18:22:09Z",
+      "state": {
+        "5772c392711431ace5fa3c4174e6648bc9372f292fafe55542d0f6545f70a20d3710826a4d859c913a88f479223a91edc6d883d99c0fb64de87e66cb42f5acd7": [
+          "datacite.json"
+        ],
+        "b0dd6a23fd81345ec40c55d90a1a6bb94d518110178ca2b30acf7868238fad8757384ff2bb7ccb3e17912f3c465dbfde9e145850579a93e50e8de0e4109d652c": [
+          "genesis.json"
+        ],
+        "ebc18ea8034518887eeccf0ed5f6092304897fc8b2b7dd45a73e17f25921bc9d27d6ed48fc0454c0bb2fdefa861adaad43afe866cd4ddb7f601b22cb266389e9": [
+          "members.json"
+        ],
+        "8a049f91753b6932dfc4e68982bbb6111b26152a80cb58ff97b456f381fb9bc5ee811896c300e73781b3702e8d88c2bcf749c0934b595d767cc39247f865c67f": [
+          "object.json"
+        ]
+      },
+      "message": "Collection version 2: 1 documents",
+      "user": {
+        "name": "Manager Test",
+        "address": "https://opensheaf.org/opensheaf-manager-test-2/"
+      }
+    },
+    "v3": {
+      "created": "2026-11-21T23:29:23Z",
+      "state": {
+        "9fd6d20b059a5f19384668d0ab56d6eb2c1cf8f4243fb8852414113fafd53fa7f5094b7bca103eb62bdb8eaa80c86ee69e4fb8c606f17506e9c4fe9762df73cd": [
+          "datacite.json"
+        ],
+        "b0dd6a23fd81345ec40c55d90a1a6bb94d518110178ca2b30acf7868238fad8757384ff2bb7ccb3e17912f3c465dbfde9e145850579a93e50e8de0e4109d652c": [
+          "genesis.json"
+        ],
+        "d5487e354455e9afe25e2a2bf2a1c2c10f8a01a4f29180d276692440fbfe6a37699080acbeceaa8f70f67f12c591e47ba4d1fa37162c609940102076e641bbdd": [
+          "members.json"
+        ],
+        "9c3d81e30cd95173a2e6b5367336601b20fa44af2b045125fac9316be5a4a39b54d8886a8583f7e4b81bb2a2329427509771140cccddb8cea45d2f6f6eb5c9ce": [
+          "object.json"
+        ]
+      },
+      "message": "Collection version 3: 2 documents",
+      "user": {
+        "name": "Manager Test",
+        "address": "https://opensheaf.org/opensheaf-manager-test-2/"
+      }
+    },
+    "v4": {
+      "created": "2026-11-21T23:30:24Z",
+      "state": {
+        "4f02cdbd7c3d4b1daf2b625a703e4e36ebaa98af50a5347296a8ac0653b0b0f4206ff878b86730f7b682b93b020bbdf998654234733baec6eff331de5684ef16": [
+          "datacite.json"
+        ],
+        "b0dd6a23fd81345ec40c55d90a1a6bb94d518110178ca2b30acf7868238fad8757384ff2bb7ccb3e17912f3c465dbfde9e145850579a93e50e8de0e4109d652c": [
+          "genesis.json"
+        ],
+        "3632324ccd30146f8751fe58214a09520cfd8e314821521657913ef51b34b06383e78b65840d10c400c5df57d367ac09fc1b1416cc3e176c777a6727a4599ae9": [
+          "members.json"
+        ],
+        "64c515b5c1e63f73513f674afa6e8cfb3e4d2b6c2b3993289373308ab196fece9279a74d27ad56a3fb5ffc50ea7fe2c9a013429cd63fe1ccd64be670744a0ef9": [
+          "object.json"
+        ]
+      },
+      "message": "Collection version 4: 2 documents",
+      "user": {
+        "name": "Manager Test",
+        "address": "https://opensheaf.org/opensheaf-manager-test-2/"
+      }
+    },
+    "v5": {
+      "created": "2026-11-22T10:35:12Z",
+      "state": {
+        "59341d6172f0df8b4e352cf32132fd9b308831d729e3cfff75e75c1525008a1503f20942e0986bf59b596f629585bdaf505c87fda300c5058c7cae3601acac46": [
+          "datacite.json"
+        ],
+        "b0dd6a23fd81345ec40c55d90a1a6bb94d518110178ca2b30acf7868238fad8757384ff2bb7ccb3e17912f3c465dbfde9e145850579a93e50e8de0e4109d652c": [
+          "genesis.json"
+        ],
+        "ebc18ea8034518887eeccf0ed5f6092304897fc8b2b7dd45a73e17f25921bc9d27d6ed48fc0454c0bb2fdefa861adaad43afe866cd4ddb7f601b22cb266389e9": [
+          "members.json"
+        ],
+        "4243b6978599df705c011dff3cdd9f070ec04d7934a358d7f3a1270d699ca59f0293a6760209f223e2167d3805332f0315f83c2f3a4a12c41317654e2f07efaa": [
+          "object.json"
+        ]
+      },
+      "message": "Collection version 5: 1 documents",
+      "user": {
+        "name": "Manager Test",
+        "address": "https://opensheaf.org/opensheaf-manager-test-2/"
+      }
+    },
+    "v6": {
+      "created": "2026-11-22T17:37:22Z",
+      "state": {
+        "bace6d607ee5c89c8ab4ea68ba376e0fa2cbca8686d920a0f9c9c89bb542093b9860bb5ee1f8a3b23cf0fe7f27e086925e8be87a8b4b4a9d61d7146296d93f17": [
+          "datacite.json"
+        ],
+        "b0dd6a23fd81345ec40c55d90a1a6bb94d518110178ca2b30acf7868238fad8757384ff2bb7ccb3e17912f3c465dbfde9e145850579a93e50e8de0e4109d652c": [
+          "genesis.json"
+        ],
+        "36003e3fd195dd51d4fd98f422dbf8049f54c16b46c8644feecf21e9f7ac29670950bcf82328365e7dfa6ebb94331fccf98e9b838fc240a4e552058b308b1a11": [
+          "members.json"
+        ],
+        "2e5913e58e63c979335bec38903fa8e969cb9a21855e01982ef5953ba9a23c3d57b7dd1936bdbe03bc089b2f73d9ad95e7dd6d6da3e93e60021fe1036e8c1f79": [
+          "object.json"
+        ]
+      },
+      "message": "Collection version 6: 1 documents",
+      "user": {
+        "name": "Manager Test",
+        "address": "https://opensheaf.org/opensheaf-manager-test-2/"
+      }
+    }
+  }
+}
