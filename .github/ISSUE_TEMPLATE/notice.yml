@@ -25,6 +25,10 @@ body:
       description: Plain text.
     validations:
       required: true
+  - type: input
+    attributes:
+      label: Notice it replaces (optional)
+      description: To correct or withdraw an earlier notice about the same version, its number (1 for the first notice of the paper, as on its page). A notice is replaced at most once.
   - type: textarea
     attributes:
       label: Full statement (optional)

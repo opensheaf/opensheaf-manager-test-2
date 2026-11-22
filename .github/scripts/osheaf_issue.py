@@ -760,6 +760,13 @@ def notice(form, origin):
         raise Problem(f"**Document version it is about** should be a number (1, 2, ...), "
                       f"not `{about}`.")
     args = ["notice", label, "--about", about, "--text", field(form, "Text of the notice", True)]
+    replaces = field(form, "Notice it replaces (optional)")
+    if replaces:
+        if not replaces.isdigit():
+            raise Problem(f"**Notice it replaces** should be a number (1 for the first notice of the paper), "
+                          f"not `{replaces}`.")
+        # a notice corrects or withdraws an earlier one about the same version by its number (section 4.2)
+        args += ["--replaces", replaces]
     with tempfile.TemporaryDirectory() as tmp:
         files = download(form, "Full statement (optional)", Path(tmp))
         if files:
