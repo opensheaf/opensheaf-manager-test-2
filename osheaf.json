@@ -24,5 +24,12 @@
   },
   "owners": [
     "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq"
-  ]
+  ],
+  "keys": {
+    "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq": {
+      "wallets": [
+        "github:opensheaf/opensheaf-manager-test-2-keys"
+      ]
+    }
+  }
 }
