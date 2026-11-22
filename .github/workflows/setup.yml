@@ -42,6 +42,9 @@ on:
       owner:
         description: The owner name printed by the key ceremony (optional; checked against key-log/)
         required: false
+      wallet:
+        description: "The key wallet that holds the owner's keys, github:OWNER/REPOSITORY (optional): recorded in osheaf.json as a hint for the owner"
+        required: false
       base_url:
         description: "Where the site will be served (optional). Empty: the address of the repository's Pages site if on, else the domain of your OWNER.github.io site if it has one (https://DOMAIN/REPOSITORY/), else https://OWNER.github.io/REPOSITORY/"
         required: false
@@ -66,6 +69,7 @@ jobs:
       CONTACT: ${{ inputs.contact }}
       OWNER: ${{ inputs.owner }}
       BASE_URL: ${{ inputs.base_url }}
+      WALLET: ${{ inputs.wallet }}
     steps:
       - uses: actions/checkout@v4
       # first in the summary: GitHub Pages, which the workflow's token cannot
@@ -113,7 +117,7 @@ jobs:
           if [ -f osheaf.json ]; then
             echo "The archive is set up already (osheaf.json): only the secret is checked." | tee -a "$GITHUB_STEP_SUMMARY"
             osheaf owner show | tee "$RUNNER_TEMP/owner.txt"
-            if ! grep -q '^on this device' "$RUNNER_TEMP/owner.txt"; then
+            if ! grep -q '(on this computer)$' "$RUNNER_TEMP/owner.txt"; then
               echo "The secret OPENSHEAF_SIGNING_KEY does not hold a current key of the archive's owner (osheaf owner show)." | tee -a "$GITHUB_STEP_SUMMARY"
               exit 1
             fi
@@ -124,7 +128,8 @@ jobs:
           import json, os, sys
           fields = {"Name": os.environ["NAME"], "Purpose": os.environ["PURPOSE"], "Description": os.environ["DESCRIPTION"],
                     "Curator": os.environ["CURATOR"], "Affiliation": os.environ["AFFILIATION"],
-                    "Contact": os.environ["CONTACT"], "Owner": os.environ["OWNER"], "Base URL": os.environ["BASE_URL"]}
+                    "Contact": os.environ["CONTACT"], "Owner": os.environ["OWNER"], "Base URL": os.environ["BASE_URL"],
+                    "Key wallet": os.environ["WALLET"]}
           json.dump({"operation": "setup", "fields": {k: v for k, v in fields.items() if v.strip()}, "files": {}},
                     open(sys.argv[1], "w"), indent=2)
           PY

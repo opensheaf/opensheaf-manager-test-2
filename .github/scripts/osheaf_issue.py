@@ -14,7 +14,7 @@ GitHub's workflows with the current key in the repository secret
 OPENSHEAF_SIGNING_KEY (the key ceremony of the README). Works are lines, named
 in the archive by their labels (`kpz-uniqueness`, the address of the paper's
 page `paper/LABEL/`) and everywhere by their sheaf: URIs. The archive holds
-documents, listed by its main catalogue (kept by `osheaf collect`), and
+documents, listed by the owner catalogue of their owner (kept by `osheaf collect`), and
 collections: reading lists, journal issues, sections, each a line whose
 members are kept in collections/LABEL.yaml and pinned by `osheaf collection
 sync LABEL`. A member is a line of this archive, by its label, or of any
@@ -214,6 +214,12 @@ def discovery():
 def labels():
     """{label: the entry of the discovery document} of the lines of this archive."""
     return {o["label"]: o for o in discovery().get("objects", []) if o.get("label")}
+
+
+def catalogues():
+    """The labels of the owner catalogues (section 8.1), named in owners of the discovery document."""
+    ids = {e.get("catalogue") for e in discovery().get("owners", []) if isinstance(e, dict)}
+    return {label for label, o in labels().items() if o.get("id") in ids}
 
 
 def label_of(name, owner):
@@ -804,7 +810,7 @@ def feature(label):
 
 def new_collection(form, origin):
     label = label_field(form, "Label of the new collection", limit=32)
-    if list_path(label).exists() or label in labels() or label == settings().get("mainCollection"):
+    if list_path(label).exists() or label in labels() or label in catalogues():
         raise Problem(f"`{label}` is already taken in this archive.")
     title = field(form, "Title of the collection", required=True)
     kind = "catalogue" if field(form, "Kind").lower().startswith("catalogue") else "selection"
@@ -834,7 +840,7 @@ def add(form, origin):
     if any(entry_key(m) == key for m in data["members"]):
         raise Problem(f"{text} is already a member of `{cid}`.")
     own = entry.get("label")
-    if own and (own == settings().get("mainCollection") or own == cid
+    if own and (own in catalogues() or own == cid
                 or (list_path(own).exists() and cid in descendants(own))):
         raise Problem(f"`{own}` cannot be a member of itself, or of a collection inside it.")
     if data.get("type") == "selection":
@@ -995,12 +1001,15 @@ def setup(form, origin):
             if value := field(form, label):
                 args += [option, value]
         osheaf(*args)
+    if wallet := field(form, "Key wallet"):
+        # a hint, in osheaf.json, of the wallet that holds the owner's keys (as the manager records it)
+        osheaf("key", "wallet", "--owner", owner, "--add", wallet)
     if KEY_LOG.is_dir():
         shutil.rmtree(KEY_LOG)   # now in the storage root, at ocfl/<owner>/<owner>/
     purpose = field(form, "Purpose").lower() or "papers"
     if purpose in ("selection", "catalogue"):
         label = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")[:32].strip("-") or "collection"
-        if label == settings().get("mainCollection"):
+        if label in catalogues():
             label += "-collection"
         make_collection(label, title, purpose, field(form, "Description"),
                         f"The collection is set up ({origin})")
