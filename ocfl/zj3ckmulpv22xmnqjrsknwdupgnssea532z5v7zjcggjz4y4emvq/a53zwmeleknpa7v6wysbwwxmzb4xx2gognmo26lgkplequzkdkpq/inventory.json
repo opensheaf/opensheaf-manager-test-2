@@ -31,6 +31,15 @@
       ],
       "9a4cde614217846717c4ff4b950ddc74": [
         "v3/content/object.json"
+      ],
+      "096e64e7097dd9b03ec5854acb1deace": [
+        "v4/content/datacite.json"
+      ],
+      "3f52e7a8fee6bd37a7b64efa101aa17e": [
+        "v4/content/members.json"
+      ],
+      "a8bd02fddd2904ced91ecc81774121c8": [
+        "v4/content/object.json"
       ]
     },
     "sha256": {
@@ -63,10 +72,19 @@
       ],
       "37a58b376fe322754eee61c672527588130065b227cd953d4fabe0d8ff0316ab": [
         "v3/content/object.json"
+      ],
+      "e2b025aa6fab223651fa6fab57630542cfce73c400a51e71f545159e40641769": [
+        "v4/content/datacite.json"
+      ],
+      "43892c0118fda89e7152a8d1668a087b7cca98e3e39281dd72dcebc6c9bccb5e": [
+        "v4/content/members.json"
+      ],
+      "6b2a457948db060f4b8d837673993e7b1cd660b641d9cdca64b6a39682015226": [
+        "v4/content/object.json"
       ]
     }
   },
-  "head": "v3",
+  "head": "v4",
   "id": "sheaf:a53zwmeleknpa7v6wysbwwxmzb4xx2gognmo26lgkplequzkdkpq:zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
   "manifest": {
     "a636335229580a7dccbce7756e1c282dfcb099d8dc3680163bc2bb524d9f26c00e674148cc50472eb708bf4491ebb185f67367aaec40ad7e566218b089e2680b": [
@@ -98,6 +116,15 @@
     ],
     "98a2d8c2338a047537f775448e079671aceace0428e9b3d831a7f96270884cee9a1c8849a0612c2b5672966f51dfa18fd69fa0e98c34d0f1a1ff01c1fb451648": [
       "v3/content/object.json"
+    ],
+    "47b81fe95364642be33ac936478861725223b4ab3efd42b5c0021718364468d18e0702d270b666639ac2c3058ca1af41247237c3cb9d206ec90f4c797427aed7": [
+      "v4/content/datacite.json"
+    ],
+    "ce40bffa1414188b82b68a7dd67d5d2fbc07610aeb1d30fabb50b07773cc42093a91efaa83f5d633eb31fe4e751168ff627366634eaf8dae9d94ce7fbb602d50": [
+      "v4/content/members.json"
+    ],
+    "3536b9bbf3552f6d91604ddba05c22a4e48e53308a870e8b0a7899e9c9ef4c1f18152bd5f7c43e6a9762fa83fb40a50c1c42f8ff690b30eea8107cf8a4cfa493": [
+      "v4/content/object.json"
     ]
   },
   "type": "https://ocfl.io/1.1/spec/#inventory",
@@ -163,6 +190,28 @@
         ]
       },
       "message": "Collection version 3: 1 documents",
+      "user": {
+        "name": "Manager Test",
+        "address": "https://opensheaf.org/opensheaf-manager-test-2/"
+      }
+    },
+    "v4": {
+      "created": "2026-11-22T17:44:28Z",
+      "state": {
+        "47b81fe95364642be33ac936478861725223b4ab3efd42b5c0021718364468d18e0702d270b666639ac2c3058ca1af41247237c3cb9d206ec90f4c797427aed7": [
+          "datacite.json"
+        ],
+        "9970a1aca9d3a813e7e7c705840e5941671e4d824cd7c988fe4153f53fa76078c8379e3440b0198406d48ae7b18c179d16be1f77db26aad2584068a9295533d8": [
+          "genesis.json"
+        ],
+        "ce40bffa1414188b82b68a7dd67d5d2fbc07610aeb1d30fabb50b07773cc42093a91efaa83f5d633eb31fe4e751168ff627366634eaf8dae9d94ce7fbb602d50": [
+          "members.json"
+        ],
+        "3536b9bbf3552f6d91604ddba05c22a4e48e53308a870e8b0a7899e9c9ef4c1f18152bd5f7c43e6a9762fa83fb40a50c1c42f8ff690b30eea8107cf8a4cfa493": [
+          "object.json"
+        ]
+      },
+      "message": "Collection version 4: 1 documents",
       "user": {
         "name": "Manager Test",
         "address": "https://opensheaf.org/opensheaf-manager-test-2/"

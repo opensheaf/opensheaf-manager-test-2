@@ -1,0 +1,72 @@
+{
+  "titles": [
+    {
+      "title": "The g-2 in the neutral Electroweak model with cutoff: convergent expansion, RG and the Jackiw-Weinberg formula"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Mastropietro, Vieri",
+      "nameType": "Personal",
+      "familyName": "Mastropietro",
+      "givenName": "Vieri"
+    },
+    {
+      "name": "Bianchessi, Michele",
+      "nameType": "Personal",
+      "familyName": "Bianchessi",
+      "givenName": "Michele"
+    }
+  ],
+  "publisher": {
+    "name": "OpenSheaf manager test 2 (throwaway)"
+  },
+  "publicationYear": 2025,
+  "types": {
+    "resourceTypeGeneral": "Preprint"
+  },
+  "version": "5",
+  "url": "https://opensheaf.org/opensheaf-manager-test-2/paper/qed-g-2-member-b/",
+  "dates": [
+    {
+      "date": "2025-10-02",
+      "dateType": "Issued"
+    },
+    {
+      "date": "2026-11-22",
+      "dateType": "Available"
+    }
+  ],
+  "language": "en",
+  "formats": [
+    "application/pdf"
+  ],
+  "rightsList": [
+    {
+      "rights": "Creative Commons Attribution 4.0 International",
+      "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsIdentifier": "cc-by-4.0",
+      "rightsIdentifierScheme": "SPDX"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "math-ph",
+      "subjectScheme": "arXiv"
+    },
+    {
+      "subject": "hep-th",
+      "subjectScheme": "arXiv"
+    },
+    {
+      "subject": "math.MP",
+      "subjectScheme": "arXiv"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "The prediction of the anomalous gyromagnetic factor of the electron, started with the evaluation of the electromagnetic contribution by Schwinger (1948) and of the weak contribution by Jackiw and Weinberg (1972), is one of the major successes of Quantum Field Theory and the Standard Model. The results obtained truncating the series are in spectacular agreement with experiments. Yet, a mathematical justification and an estimate of the truncation error are problematic, being such series diverging and not asymptotic to any QFT. For a non perturbative result, one has to consider the Standard Model as an effective theory valid up to certain energy scales. In this paper we consider the neutral sector of the Electroweak model with a momentum cutoff; we rigorously prove that the anomalous gyromagnetic factor in the effective regularized theory coincides with the Jackiw-Weinberg result, obtained by the truncation of the formal expansion with no cutoffs (whose sum is not expected to exist), up to a regularization-dependent correction which is subdominant in the weak coupling regime if the cutoff is smaller than the inverse coupling and larger than the boson mass. The proof is based on a convergent expansions and Renormalization Group (RG) methods; cancellations based on exact and approximated symmetries are needed to get lowest order dominance.",
+      "descriptionType": "Abstract"
+    }
+  ]
+}

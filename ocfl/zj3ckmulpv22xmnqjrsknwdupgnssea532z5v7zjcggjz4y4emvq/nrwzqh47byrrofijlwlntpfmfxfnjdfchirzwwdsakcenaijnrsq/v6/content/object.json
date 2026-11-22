@@ -1,0 +1,37 @@
+{
+  "format": "opensheaf-object/0.2",
+  "specification": "0.2",
+  "kind": "document",
+  "name": "nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq",
+  "owner": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
+  "documentVersion": 5,
+  "sourcesMissing": {
+    "text": "A test PDF only, made for the browser test of the manager."
+  },
+  "renditions": [
+    {
+      "path": "paper.pdf",
+      "mediaType": "application/pdf"
+    }
+  ],
+  "status": "active",
+  "changes": {
+    "text": "Browser test: a new version by member-b, which goes into its branch."
+  },
+  "parent": {
+    "owner": "3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq",
+    "name": "nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq",
+    "objectVersion": "v1",
+    "documentVersion": 1,
+    "inventorySha512": "8abf7f9f914f571dfe7a92e9f0b10b0673a608c3c53ef5df23b15602899301b941698ce892d9835a0d62fb3758e317ee00cf5a3c123804fdf1a61a928a41eefc",
+    "url": "https://opensheaf.org/opensheaf-manager-test-2/ocfl/3utmn6a66pihnegrlff6cqjfhkvua3ynuqzrvswz3yrbcww4hibq/nrwzqh47byrrofijlwlntpfmfxfnjdfchirzwwdsakcenaijnrsq/v1/"
+  },
+  "notices": [
+    {
+      "text": "Browser test of the manager with several owners: a notice by member-b on its own branch.",
+      "documentVersion": 4,
+      "date": "2026-11-22"
+    }
+  ],
+  "previous": "5226321923aaead11e7488fb8bb79eaa4b9cc0bbb81b5999135b86637547ba870d3eb9dfe85735fdaff1ed3833e36d7d906017a7250c3d51f1f48b20322f8c93"
+}
