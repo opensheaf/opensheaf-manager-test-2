@@ -30,6 +30,11 @@
       "wallets": [
         "github:opensheaf/opensheaf-manager-test-2-keys"
       ]
+    },
+    "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq": {
+      "wallets": [
+        "github:opensheaf/opensheaf-manager-test-2-keys"
+      ]
     }
   }
 }
