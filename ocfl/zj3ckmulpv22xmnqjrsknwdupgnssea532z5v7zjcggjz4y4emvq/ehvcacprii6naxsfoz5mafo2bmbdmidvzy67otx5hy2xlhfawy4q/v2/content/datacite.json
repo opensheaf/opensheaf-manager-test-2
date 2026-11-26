@@ -1,0 +1,56 @@
+{
+  "titles": [
+    {
+      "title": "A test paper by member-b"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Test, Member B",
+      "nameType": "Personal",
+      "familyName": "Test",
+      "givenName": "Member B"
+    }
+  ],
+  "publisher": {
+    "name": "OpenSheaf manager test 2 (throwaway)"
+  },
+  "publicationYear": 2026,
+  "types": {
+    "resourceTypeGeneral": "Preprint"
+  },
+  "version": "1",
+  "url": "https://opensheaf.org/opensheaf-manager-test-2/paper/member-b-test-paper/",
+  "dates": [
+    {
+      "date": "2026-11-22",
+      "dateType": "Issued"
+    },
+    {
+      "date": "2026-11-22",
+      "dateType": "Available"
+    },
+    {
+      "date": "2026-11-26",
+      "dateType": "Updated"
+    }
+  ],
+  "language": "en",
+  "formats": [
+    "application/pdf"
+  ],
+  "rightsList": [
+    {
+      "rights": "Creative Commons Attribution 4.0 International",
+      "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsIdentifier": "cc-by-4.0",
+      "rightsIdentifierScheme": "SPDX"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "A paper deposited in the browser test of the manager with several owners.",
+      "descriptionType": "Abstract"
+    }
+  ]
+}

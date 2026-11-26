@@ -39,8 +39,8 @@
       "kind": "collection",
       "name": "a53zwmeleknpa7v6wysbwwxmzb4xx2gognmo26lgkplequzkdkpq",
       "owner": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
-      "head": "v5",
-      "inventorySha512": "9144eb1e33caf19488a88aa5da935726880241cdf900472e176d93f8c206fce903092b1b71665e032f833259a7d0ba3418e04374c68af76f6bfeefc6b0bc014b",
+      "head": "v6",
+      "inventorySha512": "a1a739ce1d0db377e221159f03c155aad35c0f3e52aaafdca8d009a1da337c6e6b7ff2836565aa79c8b40dea1750f27d912b3824309c388ce69111b5d1eaf8c7",
       "status": "active",
       "label": "member-b-catalogue"
     },
@@ -49,8 +49,8 @@
       "kind": "document",
       "name": "ehvcacprii6naxsfoz5mafo2bmbdmidvzy67otx5hy2xlhfawy4q",
       "owner": "zj3ckmulpv22xmnqjrsknwdupgnssea532z5v7zjcggjz4y4emvq",
-      "head": "v1",
-      "inventorySha512": "896c23e4bbc0c8285e22dcd6e30f64007e5fbcf7f652f1e8d7a8aaa4a1e4712bbf1ea055af229b1bf54b995e1560e5e3f8b404ae7a21b5939158ebd92cb25e87",
+      "head": "v2",
+      "inventorySha512": "edcfbb5484b647e11222849e689737ef682ed8446494d2865fa46a4a33f64ef741599312b617a7fe85f754bbe3db69db5707bf2ab896755acf3290b3bb753451",
       "status": "active",
       "label": "member-b-test-paper"
     },
